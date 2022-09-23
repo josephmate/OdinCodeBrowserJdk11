@@ -464,7 +464,7 @@
 </tr>
 <tr>
 <td><a id="linenum115" class="linenum-cell" data-linenum="115" href="#linenum115"></a></td>
-<td><pre>    private static final <a class="type" href="/OdinCodeBrowserJdk11/sun/security/util/Debug.html#linenum40">Debug</a> debug = Debug.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/util/Debug.html#linenum143">getInstance</a>(<span class='string'>&quot;policy&quot;</span>);</pre></td>
+<td><pre>    private static final <a class="type" href="/OdinCodeBrowserJdk11/sun/security/util/Debug.html#linenum40">Debug</a> debug = Debug.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/util/Debug.html#linenum134">getInstance</a>(<span class='string'>&quot;policy&quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum116" class="linenum-cell" data-linenum="116" href="#linenum116"></a></td>
@@ -536,7 +536,7 @@
 </tr>
 <tr>
 <td><a id="linenum133" class="linenum-cell" data-linenum="133" href="#linenum133"></a></td>
-<td><pre>            <a class="variable" href="#linenum131">sm</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/SecurityManager.html#linenum356">checkPermission</a>(new <a class="type" href="/OdinCodeBrowserJdk11/java/security/SecurityPermission.html#linenum339">SecurityPermission</a>(<span class='string'>&quot;createPolicy.&quot;</span> + <a class="variable" href="#linenum130">type</a>));</pre></td>
+<td><pre>            <a class="variable" href="#linenum131">sm</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/SecurityManager.html#linenum321">checkPermission</a>(new <a class="type" href="/OdinCodeBrowserJdk11/java/security/SecurityPermission.html#linenum339">SecurityPermission</a>(<span class='string'>&quot;createPolicy.&quot;</span> + <a class="variable" href="#linenum130">type</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum134" class="linenum-cell" data-linenum="134" href="#linenum134"></a></td>
@@ -640,7 +640,7 @@
 </tr>
 <tr>
 <td><a id="linenum159" class="linenum-cell" data-linenum="159" href="#linenum159"></a></td>
-<td><pre>            <a class="variable" href="#linenum157">sm</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/SecurityManager.html#linenum356">checkPermission</a>(SecurityConstants.GET_POLICY_PERMISSION);</pre></td>
+<td><pre>            <a class="variable" href="#linenum157">sm</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/SecurityManager.html#linenum321">checkPermission</a>(SecurityConstants.GET_POLICY_PERMISSION);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum160" class="linenum-cell" data-linenum="160" href="#linenum160"></a></td>
@@ -776,7 +776,7 @@
 </tr>
 <tr>
 <td><a id="linenum193" class="linenum-cell" data-linenum="193" href="#linenum193"></a></td>
-<td><pre>            AccessController.<a class="type" href="/OdinCodeBrowserJdk11/java/security/AccessController.html#linenum714">doPrivileged</a>(new <a class="type" href="/OdinCodeBrowserJdk11/java/security/PrivilegedAction.html#linenum43">PrivilegedAction</a>&lt;&gt;() {</pre></td>
+<td><pre>            AccessController.<a class="type" href="/OdinCodeBrowserJdk11/java/security/AccessController.html#linenum298">doPrivileged</a>(new <a class="type" href="/OdinCodeBrowserJdk11/java/security/PrivilegedAction.html#linenum43">PrivilegedAction</a>&lt;&gt;() {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum194" class="linenum-cell" data-linenum="194" href="#linenum194"></a></td>
@@ -884,7 +884,7 @@
 </tr>
 <tr>
 <td><a id="linenum220" class="linenum-cell" data-linenum="220" href="#linenum220"></a></td>
-<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/java/security/Policy.html#linenum88">Policy</a> pol = AccessController.<a class="type" href="/OdinCodeBrowserJdk11/java/security/AccessController.html#linenum714">doPrivileged</a>(new <a class="type" href="/OdinCodeBrowserJdk11/java/security/PrivilegedAction.html#linenum43">PrivilegedAction</a>&lt;&gt;() {</pre></td>
+<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/java/security/Policy.html#linenum88">Policy</a> pol = AccessController.<a class="type" href="/OdinCodeBrowserJdk11/java/security/AccessController.html#linenum298">doPrivileged</a>(new <a class="type" href="/OdinCodeBrowserJdk11/java/security/PrivilegedAction.html#linenum43">PrivilegedAction</a>&lt;&gt;() {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum221" class="linenum-cell" data-linenum="221" href="#linenum221"></a></td>
@@ -924,7 +924,7 @@
 </tr>
 <tr>
 <td><a id="linenum230" class="linenum-cell" data-linenum="230" href="#linenum230"></a></td>
-<td><pre>                        <a class="variable" href="#linenum115">debug</a>.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/util/Debug.html#linenum210">println</a>(<span class='string'>&quot;policy provider &quot;</span> + <a class="variable" href="#linenum192">policyProvider</a> +</pre></td>
+<td><pre>                        <a class="variable" href="#linenum115">debug</a>.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/util/Debug.html#linenum182">println</a>(<span class='string'>&quot;policy provider &quot;</span> + <a class="variable" href="#linenum192">policyProvider</a> +</pre></td>
 </tr>
 <tr>
 <td><a id="linenum231" class="linenum-cell" data-linenum="231" href="#linenum231"></a></td>
@@ -972,7 +972,7 @@
 </tr>
 <tr>
 <td><a id="linenum242" class="linenum-cell" data-linenum="242" href="#linenum242"></a></td>
-<td><pre>                <a class="variable" href="#linenum115">debug</a>.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/util/Debug.html#linenum210">println</a>(<span class='string'>&quot;using &quot;</span> + <a class="variable" href="#linenum118">DEFAULT_POLICY</a>);</pre></td>
+<td><pre>                <a class="variable" href="#linenum115">debug</a>.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/util/Debug.html#linenum182">println</a>(<span class='string'>&quot;using &quot;</span> + <a class="variable" href="#linenum118">DEFAULT_POLICY</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum243" class="linenum-cell" data-linenum="243" href="#linenum243"></a></td>
@@ -1084,7 +1084,7 @@
 </tr>
 <tr>
 <td><a id="linenum270" class="linenum-cell" data-linenum="270" href="#linenum270"></a></td>
-<td><pre>        if (<a class="variable" href="#linenum269">sm</a> != null) <a class="variable" href="#linenum269">sm</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/SecurityManager.html#linenum356">checkPermission</a>(</pre></td>
+<td><pre>        if (<a class="variable" href="#linenum269">sm</a> != null) <a class="variable" href="#linenum269">sm</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/SecurityManager.html#linenum321">checkPermission</a>(</pre></td>
 </tr>
 <tr>
 <td><a id="linenum271" class="linenum-cell" data-linenum="271" href="#linenum271"></a></td>
@@ -1240,7 +1240,7 @@
 </tr>
 <tr>
 <td><a id="linenum309" class="linenum-cell" data-linenum="309" href="#linenum309"></a></td>
-<td><pre>        AccessController.<a class="type" href="/OdinCodeBrowserJdk11/java/security/AccessController.html#linenum714">doPrivileged</a>(new <a class="type" href="/OdinCodeBrowserJdk11/java/security/PrivilegedAction.html#linenum43">PrivilegedAction</a>&lt;&gt;() {</pre></td>
+<td><pre>        AccessController.<a class="type" href="/OdinCodeBrowserJdk11/java/security/AccessController.html#linenum298">doPrivileged</a>(new <a class="type" href="/OdinCodeBrowserJdk11/java/security/PrivilegedAction.html#linenum43">PrivilegedAction</a>&lt;&gt;() {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum310" class="linenum-cell" data-linenum="310" href="#linenum310"></a></td>
@@ -2740,7 +2740,7 @@
 </tr>
 <tr>
 <td><a id="linenum684" class="linenum-cell" data-linenum="684" href="#linenum684"></a></td>
-<td><pre>        <a class="variable" href="#linenum661">pc</a> = <a class="type" href="/OdinCodeBrowserJdk11/java/security/Policy.html#linenum660">getPermissions</a>(<a class="variable" href="#linenum660">domain</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/security/ProtectionDomain.html#linenum241">getCodeSource</a>());</pre></td>
+<td><pre>        <a class="variable" href="#linenum661">pc</a> = <a class="type" href="/OdinCodeBrowserJdk11/java/security/Policy.html#linenum622">getPermissions</a>(<a class="variable" href="#linenum660">domain</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/security/ProtectionDomain.html#linenum241">getCodeSource</a>());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum685" class="linenum-cell" data-linenum="685" href="#linenum685"></a></td>

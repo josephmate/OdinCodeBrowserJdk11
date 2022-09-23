@@ -704,11 +704,11 @@
 </tr>
 <tr>
 <td><a id="linenum175" class="linenum-cell" data-linenum="175" href="#linenum175"></a></td>
-<td><pre>        byte[] bytes = XMLUtils.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/xml/internal/security/utils/XMLUtils.html#linenum969">getBytes</a>(<a class="variable" href="#linenum173">value</a>, <a class="variable" href="#linenum173">value</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/math/BigInteger.html#linenum2553">bitLength</a>());</pre></td>
+<td><pre>        byte[] bytes = XMLUtils.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/xml/internal/security/utils/XMLUtils.html#linenum969">getBytes</a>(<a class="variable" href="#linenum173">value</a>, <a class="variable" href="#linenum173">value</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/math/BigInteger.html#linenum3568">bitLength</a>());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum176" class="linenum-cell" data-linenum="176" href="#linenum176"></a></td>
-<td><pre>        <a class="variable" href="#linenum173">xwriter</a>.<a class="type" href="/OdinCodeBrowserJdk11/org/jcp/xml/dsig/internal/dom/XmlWriter.html#linenum82">writeTextElement</a>(<a class="variable" href="#linenum173">prefix</a>, <a class="variable" href="#linenum173">localName</a>, <a class="variable" href="#linenum173">namespaceURI</a>, Base64.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Base64.html#linenum131">getMimeEncoder</a>().encodeToString(<a class="variable" href="#linenum175">bytes</a>));</pre></td>
+<td><pre>        <a class="variable" href="#linenum173">xwriter</a>.<a class="type" href="/OdinCodeBrowserJdk11/org/jcp/xml/dsig/internal/dom/XmlWriter.html#linenum82">writeTextElement</a>(<a class="variable" href="#linenum173">prefix</a>, <a class="variable" href="#linenum173">localName</a>, <a class="variable" href="#linenum173">namespaceURI</a>, Base64.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Base64.html#linenum109">getMimeEncoder</a>().encodeToString(<a class="variable" href="#linenum175">bytes</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum177" class="linenum-cell" data-linenum="177" href="#linenum177"></a></td>
@@ -724,11 +724,11 @@
 </tr>
 <tr>
 <td><a id="linenum180" class="linenum-cell" data-linenum="180" href="#linenum180"></a></td>
-<td><pre>        byte[] bytes = XMLUtils.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/xml/internal/security/utils/XMLUtils.html#linenum969">getBytes</a>(<a class="variable" href="#linenum179">bigNum</a>, <a class="variable" href="#linenum179">bigNum</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/math/BigInteger.html#linenum2553">bitLength</a>());</pre></td>
+<td><pre>        byte[] bytes = XMLUtils.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/xml/internal/security/utils/XMLUtils.html#linenum969">getBytes</a>(<a class="variable" href="#linenum179">bigNum</a>, <a class="variable" href="#linenum179">bigNum</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/math/BigInteger.html#linenum3568">bitLength</a>());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum181" class="linenum-cell" data-linenum="181" href="#linenum181"></a></td>
-<td><pre>        <a class="variable" href="#linenum179">xwriter</a>.<a class="type" href="/OdinCodeBrowserJdk11/org/jcp/xml/dsig/internal/dom/XmlWriter.html#linenum86">writeCharacters</a>(Base64.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Base64.html#linenum131">getMimeEncoder</a>().encodeToString(<a class="variable" href="#linenum180">bytes</a>));</pre></td>
+<td><pre>        <a class="variable" href="#linenum179">xwriter</a>.<a class="type" href="/OdinCodeBrowserJdk11/org/jcp/xml/dsig/internal/dom/XmlWriter.html#linenum86">writeCharacters</a>(Base64.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Base64.html#linenum109">getMimeEncoder</a>().encodeToString(<a class="variable" href="#linenum180">bytes</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum182" class="linenum-cell" data-linenum="182" href="#linenum182"></a></td>
@@ -896,7 +896,7 @@
 </tr>
 <tr>
 <td><a id="linenum223" class="linenum-cell" data-linenum="223" href="#linenum223"></a></td>
-<td><pre>                    <a class="variable" href="#linenum196">rsakf</a> = KeyFactory.<a class="type" href="/OdinCodeBrowserJdk11/java/security/KeyFactory.html#linenum263">getInstance</a>(<span class='string'>&quot;RSA&quot;</span>);</pre></td>
+<td><pre>                    <a class="variable" href="#linenum196">rsakf</a> = KeyFactory.<a class="type" href="/OdinCodeBrowserJdk11/java/security/KeyFactory.html#linenum180">getInstance</a>(<span class='string'>&quot;RSA&quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum224" class="linenum-cell" data-linenum="224" href="#linenum224"></a></td>
@@ -1116,7 +1116,7 @@
 </tr>
 <tr>
 <td><a id="linenum278" class="linenum-cell" data-linenum="278" href="#linenum278"></a></td>
-<td><pre>                    <a class="variable" href="#linenum244">dsakf</a> = KeyFactory.<a class="type" href="/OdinCodeBrowserJdk11/java/security/KeyFactory.html#linenum263">getInstance</a>(<span class='string'>&quot;DSA&quot;</span>);</pre></td>
+<td><pre>                    <a class="variable" href="#linenum244">dsakf</a> = KeyFactory.<a class="type" href="/OdinCodeBrowserJdk11/java/security/KeyFactory.html#linenum180">getInstance</a>(<span class='string'>&quot;DSA&quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum279" class="linenum-cell" data-linenum="279" href="#linenum279"></a></td>
@@ -1600,11 +1600,11 @@
 </tr>
 <tr>
 <td><a id="linenum399" class="linenum-cell" data-linenum="399" href="#linenum399"></a></td>
-<td><pre>            byte[] xb = Arrays.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Arrays.html#linenum4278">copyOfRange</a>(<a class="variable" href="#linenum386">data</a>, 1, 1 + <a class="variable" href="#linenum394">n</a>);</pre></td>
+<td><pre>            byte[] xb = Arrays.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Arrays.html#linenum3948">copyOfRange</a>(<a class="variable" href="#linenum386">data</a>, 1, 1 + <a class="variable" href="#linenum394">n</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum400" class="linenum-cell" data-linenum="400" href="#linenum400"></a></td>
-<td><pre>            byte[] yb = Arrays.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Arrays.html#linenum4278">copyOfRange</a>(<a class="variable" href="#linenum386">data</a>, <a class="variable" href="#linenum394">n</a> + 1, <a class="variable" href="#linenum394">n</a> + 1 + <a class="variable" href="#linenum394">n</a>);</pre></td>
+<td><pre>            byte[] yb = Arrays.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Arrays.html#linenum3948">copyOfRange</a>(<a class="variable" href="#linenum386">data</a>, <a class="variable" href="#linenum394">n</a> + 1, <a class="variable" href="#linenum394">n</a> + 1 + <a class="variable" href="#linenum394">n</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum401" class="linenum-cell" data-linenum="401" href="#linenum401"></a></td>
@@ -1720,7 +1720,7 @@
 </tr>
 <tr>
 <td><a id="linenum429" class="linenum-cell" data-linenum="429" href="#linenum429"></a></td>
-<td><pre>            return Arrays.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Arrays.html#linenum4278">copyOfRange</a>(<a class="variable" href="#linenum421">b</a>, <a class="variable" href="#linenum422">i</a>, <a class="variable" href="#linenum421">b</a>.length);</pre></td>
+<td><pre>            return Arrays.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Arrays.html#linenum3948">copyOfRange</a>(<a class="variable" href="#linenum421">b</a>, <a class="variable" href="#linenum422">i</a>, <a class="variable" href="#linenum421">b</a>.length);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum430" class="linenum-cell" data-linenum="430" href="#linenum430"></a></td>
@@ -1924,7 +1924,7 @@
 </tr>
 <tr>
 <td><a id="linenum480" class="linenum-cell" data-linenum="480" href="#linenum480"></a></td>
-<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum125">String</a> encoded = Base64.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Base64.html#linenum131">getMimeEncoder</a>().encodeToString(<a class="variable" href="#linenum321">ecPublicKey</a>);</pre></td>
+<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum125">String</a> encoded = Base64.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Base64.html#linenum109">getMimeEncoder</a>().encodeToString(<a class="variable" href="#linenum321">ecPublicKey</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum481" class="linenum-cell" data-linenum="481" href="#linenum481"></a></td>
@@ -1972,7 +1972,7 @@
 </tr>
 <tr>
 <td><a id="linenum492" class="linenum-cell" data-linenum="492" href="#linenum492"></a></td>
-<td><pre>                    <a class="variable" href="#linenum322">eckf</a> = KeyFactory.<a class="type" href="/OdinCodeBrowserJdk11/java/security/KeyFactory.html#linenum263">getInstance</a>(<span class='string'>&quot;EC&quot;</span>);</pre></td>
+<td><pre>                    <a class="variable" href="#linenum322">eckf</a> = KeyFactory.<a class="type" href="/OdinCodeBrowserJdk11/java/security/KeyFactory.html#linenum180">getInstance</a>(<span class='string'>&quot;EC&quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum493" class="linenum-cell" data-linenum="493" href="#linenum493"></a></td>
@@ -2056,7 +2056,7 @@
 </tr>
 <tr>
 <td><a id="linenum513" class="linenum-cell" data-linenum="513" href="#linenum513"></a></td>
-<td><pre>                    <a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum125">String</a> oid = <a class="variable" href="#linenum510">uri</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum1872">substring</a>(<span class='string'>&quot;urn:oid:&quot;</span>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum657">length</a>());</pre></td>
+<td><pre>                    <a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum125">String</a> oid = <a class="variable" href="#linenum510">uri</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum1835">substring</a>(<span class='string'>&quot;urn:oid:&quot;</span>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum657">length</a>());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum514" class="linenum-cell" data-linenum="514" href="#linenum514"></a></td>

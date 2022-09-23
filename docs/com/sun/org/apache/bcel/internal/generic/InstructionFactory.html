@@ -568,19 +568,19 @@
 </tr>
 <tr>
 <td><a id="linenum141" class="linenum-cell" data-linenum="141" href="#linenum141"></a></td>
-<td><pre>        final int println = <a class="variable" href="#linenum62">cp</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/ConstantPoolGen.html#linenum580">addMethodref</a>(<span class='string'>&quot;java.io.PrintStream&quot;</span>, <span class='string'>&quot;println&quot;</span>, <span class='string'>&quot;(Ljava/lang/String;)V&quot;</span>);</pre></td>
+<td><pre>        final int println = <a class="variable" href="#linenum62">cp</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/ConstantPoolGen.html#linenum561">addMethodref</a>(<span class='string'>&quot;java.io.PrintStream&quot;</span>, <span class='string'>&quot;println&quot;</span>, <span class='string'>&quot;(Ljava/lang/String;)V&quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum142" class="linenum-cell" data-linenum="142" href="#linenum142"></a></td>
-<td><pre>        <a class="variable" href="#linenum139">il</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/InstructionList.html#linenum299">append</a>(new <a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/GETSTATIC.html#linenum35">GETSTATIC</a>(<a class="variable" href="#linenum140">out</a>));</pre></td>
+<td><pre>        <a class="variable" href="#linenum139">il</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/InstructionList.html#linenum277">append</a>(new <a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/GETSTATIC.html#linenum35">GETSTATIC</a>(<a class="variable" href="#linenum140">out</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum143" class="linenum-cell" data-linenum="143" href="#linenum143"></a></td>
-<td><pre>        <a class="variable" href="#linenum139">il</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/InstructionList.html#linenum299">append</a>(new <a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/PUSH.html#linenum31">PUSH</a>(<a class="variable" href="#linenum62">cp</a>, <a class="variable" href="#linenum138">s</a>));</pre></td>
+<td><pre>        <a class="variable" href="#linenum139">il</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/InstructionList.html#linenum277">append</a>(new <a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/PUSH.html#linenum31">PUSH</a>(<a class="variable" href="#linenum62">cp</a>, <a class="variable" href="#linenum138">s</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum144" class="linenum-cell" data-linenum="144" href="#linenum144"></a></td>
-<td><pre>        <a class="variable" href="#linenum139">il</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/InstructionList.html#linenum299">append</a>(new <a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/INVOKEVIRTUAL.html#linenum40">INVOKEVIRTUAL</a>(<a class="variable" href="#linenum141">println</a>));</pre></td>
+<td><pre>        <a class="variable" href="#linenum139">il</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/InstructionList.html#linenum277">append</a>(new <a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/INVOKEVIRTUAL.html#linenum40">INVOKEVIRTUAL</a>(<a class="variable" href="#linenum141">println</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum145" class="linenum-cell" data-linenum="145" href="#linenum145"></a></td>
@@ -744,7 +744,7 @@
 </tr>
 <tr>
 <td><a id="linenum185" class="linenum-cell" data-linenum="185" href="#linenum185"></a></td>
-<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/InstructionFactory.html#linenum184">createInvoke</a>(<a class="variable" href="#linenum184">m</a>.class_name, <a class="variable" href="#linenum184">m</a>.name, <a class="variable" href="#linenum184">m</a>.result_type, <a class="variable" href="#linenum184">m</a>.arg_types, <a class="variable" href="#linenum184">kind</a>);</pre></td>
+<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/InstructionFactory.html#linenum77">createInvoke</a>(<a class="variable" href="#linenum184">m</a>.class_name, <a class="variable" href="#linenum184">m</a>.name, <a class="variable" href="#linenum184">m</a>.result_type, <a class="variable" href="#linenum184">m</a>.arg_types, <a class="variable" href="#linenum184">kind</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum186" class="linenum-cell" data-linenum="186" href="#linenum186"></a></td>
@@ -928,7 +928,7 @@
 </tr>
 <tr>
 <td><a id="linenum231" class="linenum-cell" data-linenum="231" href="#linenum231"></a></td>
-<td><pre>        final byte t = <a class="variable" href="#linenum230">type</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum261">getType</a>();</pre></td>
+<td><pre>        final byte t = <a class="variable" href="#linenum230">type</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum97">getType</a>();</pre></td>
 </tr>
 <tr>
 <td><a id="linenum232" class="linenum-cell" data-linenum="232" href="#linenum232"></a></td>
@@ -1060,7 +1060,7 @@
 </tr>
 <tr>
 <td><a id="linenum264" class="linenum-cell" data-linenum="264" href="#linenum264"></a></td>
-<td><pre>        final <a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum125">String</a> signature = <a class="variable" href="#linenum262">type</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum313">getSignature</a>();</pre></td>
+<td><pre>        final <a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum125">String</a> signature = <a class="variable" href="#linenum262">type</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum90">getSignature</a>();</pre></td>
 </tr>
 <tr>
 <td><a id="linenum265" class="linenum-cell" data-linenum="265" href="#linenum265"></a></td>
@@ -1168,7 +1168,7 @@
 </tr>
 <tr>
 <td><a id="linenum291" class="linenum-cell" data-linenum="291" href="#linenum291"></a></td>
-<td><pre>        switch (<a class="variable" href="#linenum290">type</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum261">getType</a>()) {</pre></td>
+<td><pre>        switch (<a class="variable" href="#linenum290">type</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum97">getType</a>()) {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum292" class="linenum-cell" data-linenum="292" href="#linenum292"></a></td>
@@ -1640,7 +1640,7 @@
 </tr>
 <tr>
 <td><a id="linenum409" class="linenum-cell" data-linenum="409" href="#linenum409"></a></td>
-<td><pre>        switch (<a class="variable" href="#linenum407">type</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum261">getType</a>()) {</pre></td>
+<td><pre>        switch (<a class="variable" href="#linenum407">type</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum97">getType</a>()) {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum410" class="linenum-cell" data-linenum="410" href="#linenum410"></a></td>
@@ -1836,7 +1836,7 @@
 </tr>
 <tr>
 <td><a id="linenum458" class="linenum-cell" data-linenum="458" href="#linenum458"></a></td>
-<td><pre>        switch (<a class="variable" href="#linenum457">type</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum261">getType</a>()) {</pre></td>
+<td><pre>        switch (<a class="variable" href="#linenum457">type</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum97">getType</a>()) {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum459" class="linenum-cell" data-linenum="459" href="#linenum459"></a></td>
@@ -1936,7 +1936,7 @@
 </tr>
 <tr>
 <td><a id="linenum483" class="linenum-cell" data-linenum="483" href="#linenum483"></a></td>
-<td><pre>        switch (<a class="variable" href="#linenum482">type</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum261">getType</a>()) {</pre></td>
+<td><pre>        switch (<a class="variable" href="#linenum482">type</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum97">getType</a>()) {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum484" class="linenum-cell" data-linenum="484" href="#linenum484"></a></td>
@@ -2036,7 +2036,7 @@
 </tr>
 <tr>
 <td><a id="linenum508" class="linenum-cell" data-linenum="508" href="#linenum508"></a></td>
-<td><pre>        switch (<a class="variable" href="#linenum507">type</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum261">getType</a>()) {</pre></td>
+<td><pre>        switch (<a class="variable" href="#linenum507">type</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum97">getType</a>()) {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum509" class="linenum-cell" data-linenum="509" href="#linenum509"></a></td>
@@ -2148,7 +2148,7 @@
 </tr>
 <tr>
 <td><a id="linenum536" class="linenum-cell" data-linenum="536" href="#linenum536"></a></td>
-<td><pre>        switch (<a class="variable" href="#linenum535">type</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum261">getType</a>()) {</pre></td>
+<td><pre>        switch (<a class="variable" href="#linenum535">type</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum97">getType</a>()) {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum537" class="linenum-cell" data-linenum="537" href="#linenum537"></a></td>
@@ -2272,11 +2272,11 @@
 </tr>
 <tr>
 <td><a id="linenum567" class="linenum-cell" data-linenum="567" href="#linenum567"></a></td>
-<td><pre>            final byte dest = <a class="variable" href="#linenum565">dest_type</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum261">getType</a>();</pre></td>
+<td><pre>            final byte dest = <a class="variable" href="#linenum565">dest_type</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum97">getType</a>();</pre></td>
 </tr>
 <tr>
 <td><a id="linenum568" class="linenum-cell" data-linenum="568" href="#linenum568"></a></td>
-<td><pre>            byte src = <a class="variable" href="#linenum565">src_type</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum261">getType</a>();</pre></td>
+<td><pre>            byte src = <a class="variable" href="#linenum565">src_type</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum97">getType</a>();</pre></td>
 </tr>
 <tr>
 <td><a id="linenum569" class="linenum-cell" data-linenum="569" href="#linenum569"></a></td>
@@ -2348,7 +2348,7 @@
 </tr>
 <tr>
 <td><a id="linenum586" class="linenum-cell" data-linenum="586" href="#linenum586"></a></td>
-<td><pre>            return new <a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/CHECKCAST.html#linenum32">CHECKCAST</a>(<a class="variable" href="#linenum62">cp</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/ConstantPoolGen.html#linenum294">addClass</a>(((<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/ObjectType.html#linenum33">ObjectType</a>) <a class="variable" href="#linenum565">dest_type</a>).getClassName()));</pre></td>
+<td><pre>            return new <a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/CHECKCAST.html#linenum32">CHECKCAST</a>(<a class="variable" href="#linenum62">cp</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/ConstantPoolGen.html#linenum284">addClass</a>(((<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/ObjectType.html#linenum33">ObjectType</a>) <a class="variable" href="#linenum565">dest_type</a>).getClassName()));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum587" class="linenum-cell" data-linenum="587" href="#linenum587"></a></td>
@@ -2376,7 +2376,7 @@
 </tr>
 <tr>
 <td><a id="linenum593" class="linenum-cell" data-linenum="593" href="#linenum593"></a></td>
-<td><pre>        return new <a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/GETFIELD.html#linenum33">GETFIELD</a>(<a class="variable" href="#linenum62">cp</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/ConstantPoolGen.html#linenum658">addFieldref</a>(<a class="variable" href="#linenum592">class_name</a>, <a class="variable" href="#linenum592">name</a>, <a class="variable" href="#linenum592">t</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum313">getSignature</a>()));</pre></td>
+<td><pre>        return new <a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/GETFIELD.html#linenum33">GETFIELD</a>(<a class="variable" href="#linenum62">cp</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/ConstantPoolGen.html#linenum658">addFieldref</a>(<a class="variable" href="#linenum592">class_name</a>, <a class="variable" href="#linenum592">name</a>, <a class="variable" href="#linenum592">t</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum90">getSignature</a>()));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum594" class="linenum-cell" data-linenum="594" href="#linenum594"></a></td>
@@ -2392,7 +2392,7 @@
 </tr>
 <tr>
 <td><a id="linenum597" class="linenum-cell" data-linenum="597" href="#linenum597"></a></td>
-<td><pre>        return new <a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/GETSTATIC.html#linenum35">GETSTATIC</a>(<a class="variable" href="#linenum62">cp</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/ConstantPoolGen.html#linenum658">addFieldref</a>(<a class="variable" href="#linenum596">class_name</a>, <a class="variable" href="#linenum596">name</a>, <a class="variable" href="#linenum596">t</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum313">getSignature</a>()));</pre></td>
+<td><pre>        return new <a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/GETSTATIC.html#linenum35">GETSTATIC</a>(<a class="variable" href="#linenum62">cp</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/ConstantPoolGen.html#linenum658">addFieldref</a>(<a class="variable" href="#linenum596">class_name</a>, <a class="variable" href="#linenum596">name</a>, <a class="variable" href="#linenum596">t</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum90">getSignature</a>()));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum598" class="linenum-cell" data-linenum="598" href="#linenum598"></a></td>
@@ -2408,7 +2408,7 @@
 </tr>
 <tr>
 <td><a id="linenum601" class="linenum-cell" data-linenum="601" href="#linenum601"></a></td>
-<td><pre>        return new <a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/PUTFIELD.html#linenum35">PUTFIELD</a>(<a class="variable" href="#linenum62">cp</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/ConstantPoolGen.html#linenum658">addFieldref</a>(<a class="variable" href="#linenum600">class_name</a>, <a class="variable" href="#linenum600">name</a>, <a class="variable" href="#linenum600">t</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum313">getSignature</a>()));</pre></td>
+<td><pre>        return new <a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/PUTFIELD.html#linenum35">PUTFIELD</a>(<a class="variable" href="#linenum62">cp</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/ConstantPoolGen.html#linenum658">addFieldref</a>(<a class="variable" href="#linenum600">class_name</a>, <a class="variable" href="#linenum600">name</a>, <a class="variable" href="#linenum600">t</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum90">getSignature</a>()));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum602" class="linenum-cell" data-linenum="602" href="#linenum602"></a></td>
@@ -2424,7 +2424,7 @@
 </tr>
 <tr>
 <td><a id="linenum605" class="linenum-cell" data-linenum="605" href="#linenum605"></a></td>
-<td><pre>        return new <a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/PUTSTATIC.html#linenum35">PUTSTATIC</a>(<a class="variable" href="#linenum62">cp</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/ConstantPoolGen.html#linenum658">addFieldref</a>(<a class="variable" href="#linenum604">class_name</a>, <a class="variable" href="#linenum604">name</a>, <a class="variable" href="#linenum604">t</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum313">getSignature</a>()));</pre></td>
+<td><pre>        return new <a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/PUTSTATIC.html#linenum35">PUTSTATIC</a>(<a class="variable" href="#linenum62">cp</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/ConstantPoolGen.html#linenum658">addFieldref</a>(<a class="variable" href="#linenum604">class_name</a>, <a class="variable" href="#linenum604">name</a>, <a class="variable" href="#linenum604">t</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum90">getSignature</a>()));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum606" class="linenum-cell" data-linenum="606" href="#linenum606"></a></td>
@@ -2452,7 +2452,7 @@
 </tr>
 <tr>
 <td><a id="linenum612" class="linenum-cell" data-linenum="612" href="#linenum612"></a></td>
-<td><pre>        return new <a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/CHECKCAST.html#linenum32">CHECKCAST</a>(<a class="variable" href="#linenum62">cp</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/ConstantPoolGen.html#linenum294">addClass</a>((<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/ObjectType.html#linenum33">ObjectType</a>) <a class="variable" href="#linenum608">t</a>));</pre></td>
+<td><pre>        return new <a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/CHECKCAST.html#linenum32">CHECKCAST</a>(<a class="variable" href="#linenum62">cp</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/ConstantPoolGen.html#linenum284">addClass</a>((<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/ObjectType.html#linenum33">ObjectType</a>) <a class="variable" href="#linenum608">t</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum613" class="linenum-cell" data-linenum="613" href="#linenum613"></a></td>
@@ -2480,7 +2480,7 @@
 </tr>
 <tr>
 <td><a id="linenum619" class="linenum-cell" data-linenum="619" href="#linenum619"></a></td>
-<td><pre>        return new <a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/INSTANCEOF.html#linenum32">INSTANCEOF</a>(<a class="variable" href="#linenum62">cp</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/ConstantPoolGen.html#linenum294">addClass</a>((<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/ObjectType.html#linenum33">ObjectType</a>) <a class="variable" href="#linenum615">t</a>));</pre></td>
+<td><pre>        return new <a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/INSTANCEOF.html#linenum32">INSTANCEOF</a>(<a class="variable" href="#linenum62">cp</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/ConstantPoolGen.html#linenum284">addClass</a>((<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/ObjectType.html#linenum33">ObjectType</a>) <a class="variable" href="#linenum615">t</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum620" class="linenum-cell" data-linenum="620" href="#linenum620"></a></td>
@@ -2512,7 +2512,7 @@
 </tr>
 <tr>
 <td><a id="linenum627" class="linenum-cell" data-linenum="627" href="#linenum627"></a></td>
-<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/InstructionFactory.html#linenum626">createNew</a>(ObjectType.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/ObjectType.html#linenum40">getInstance</a>(<a class="variable" href="#linenum626">s</a>));</pre></td>
+<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/InstructionFactory.html#linenum622">createNew</a>(ObjectType.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/ObjectType.html#linenum40">getInstance</a>(<a class="variable" href="#linenum626">s</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum628" class="linenum-cell" data-linenum="628" href="#linenum628"></a></td>
@@ -2560,7 +2560,7 @@
 </tr>
 <tr>
 <td><a id="linenum639" class="linenum-cell" data-linenum="639" href="#linenum639"></a></td>
-<td><pre>                return new <a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/ANEWARRAY.html#linenum32">ANEWARRAY</a>(<a class="variable" href="#linenum62">cp</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/ConstantPoolGen.html#linenum294">addClass</a>((<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/ObjectType.html#linenum33">ObjectType</a>) <a class="variable" href="#linenum636">t</a>));</pre></td>
+<td><pre>                return new <a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/ANEWARRAY.html#linenum32">ANEWARRAY</a>(<a class="variable" href="#linenum62">cp</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/ConstantPoolGen.html#linenum284">addClass</a>((<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/ObjectType.html#linenum33">ObjectType</a>) <a class="variable" href="#linenum636">t</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum640" class="linenum-cell" data-linenum="640" href="#linenum640"></a></td>
@@ -2576,7 +2576,7 @@
 </tr>
 <tr>
 <td><a id="linenum643" class="linenum-cell" data-linenum="643" href="#linenum643"></a></td>
-<td><pre>                return new <a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/NEWARRAY.html#linenum36">NEWARRAY</a>(<a class="variable" href="#linenum636">t</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum261">getType</a>());</pre></td>
+<td><pre>                return new <a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/NEWARRAY.html#linenum36">NEWARRAY</a>(<a class="variable" href="#linenum636">t</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum97">getType</a>());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum644" class="linenum-cell" data-linenum="644" href="#linenum644"></a></td>
@@ -2640,7 +2640,7 @@
 </tr>
 <tr>
 <td><a id="linenum659" class="linenum-cell" data-linenum="659" href="#linenum659"></a></td>
-<td><pre>        switch (<a class="variable" href="#linenum658">type</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum261">getType</a>()) {</pre></td>
+<td><pre>        switch (<a class="variable" href="#linenum658">type</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/bcel/internal/generic/Type.html#linenum97">getType</a>()) {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum660" class="linenum-cell" data-linenum="660" href="#linenum660"></a></td>

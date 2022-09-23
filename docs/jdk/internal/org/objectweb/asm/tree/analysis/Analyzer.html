@@ -756,19 +756,19 @@
 </tr>
 <tr>
 <td><a id="linenum188" class="linenum-cell" data-linenum="188" href="#linenum188"></a></td>
-<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/jdk/internal/org/objectweb/asm/tree/analysis/Frame.html#linenum84">Frame</a>&lt;V&gt; current = <a class="type" href="/OdinCodeBrowserJdk11/jdk/internal/org/objectweb/asm/tree/analysis/Analyzer.html#linenum462">newFrame</a>(<a class="variable" href="#linenum135">m</a>.maxLocals, <a class="variable" href="#linenum135">m</a>.maxStack);</pre></td>
+<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/jdk/internal/org/objectweb/asm/tree/analysis/Frame.html#linenum84">Frame</a>&lt;V&gt; current = <a class="type" href="/OdinCodeBrowserJdk11/jdk/internal/org/objectweb/asm/tree/analysis/Analyzer.html#linenum451">newFrame</a>(<a class="variable" href="#linenum135">m</a>.maxLocals, <a class="variable" href="#linenum135">m</a>.maxStack);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum189" class="linenum-cell" data-linenum="189" href="#linenum189"></a></td>
-<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/jdk/internal/org/objectweb/asm/tree/analysis/Frame.html#linenum84">Frame</a>&lt;V&gt; handler = <a class="type" href="/OdinCodeBrowserJdk11/jdk/internal/org/objectweb/asm/tree/analysis/Analyzer.html#linenum462">newFrame</a>(<a class="variable" href="#linenum135">m</a>.maxLocals, <a class="variable" href="#linenum135">m</a>.maxStack);</pre></td>
+<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/jdk/internal/org/objectweb/asm/tree/analysis/Frame.html#linenum84">Frame</a>&lt;V&gt; handler = <a class="type" href="/OdinCodeBrowserJdk11/jdk/internal/org/objectweb/asm/tree/analysis/Analyzer.html#linenum451">newFrame</a>(<a class="variable" href="#linenum135">m</a>.maxLocals, <a class="variable" href="#linenum135">m</a>.maxStack);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum190" class="linenum-cell" data-linenum="190" href="#linenum190"></a></td>
-<td><pre>        <a class="variable" href="#linenum188">current</a>.setReturn(<a class="variable" href="#linenum115">interpreter</a>.newValue(Type.<a class="type" href="/OdinCodeBrowserJdk11/jdk/internal/org/objectweb/asm/Type.html#linenum637">getReturnType</a>(<a class="variable" href="#linenum135">m</a>.desc)));</pre></td>
+<td><pre>        <a class="variable" href="#linenum188">current</a>.setReturn(<a class="variable" href="#linenum115">interpreter</a>.newValue(Type.<a class="type" href="/OdinCodeBrowserJdk11/jdk/internal/org/objectweb/asm/Type.html#linenum407">getReturnType</a>(<a class="variable" href="#linenum135">m</a>.desc)));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum191" class="linenum-cell" data-linenum="191" href="#linenum191"></a></td>
-<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/jdk/internal/org/objectweb/asm/Type.html#linenum71">Type</a>[] args = Type.<a class="type" href="/OdinCodeBrowserJdk11/jdk/internal/org/objectweb/asm/Type.html#linenum627">getArgumentTypes</a>(<a class="variable" href="#linenum135">m</a>.desc);</pre></td>
+<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/jdk/internal/org/objectweb/asm/Type.html#linenum71">Type</a>[] args = Type.<a class="type" href="/OdinCodeBrowserJdk11/jdk/internal/org/objectweb/asm/Type.html#linenum353">getArgumentTypes</a>(<a class="variable" href="#linenum135">m</a>.desc);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum192" class="linenum-cell" data-linenum="192" href="#linenum192"></a></td>
@@ -828,7 +828,7 @@
 </tr>
 <tr>
 <td><a id="linenum206" class="linenum-cell" data-linenum="206" href="#linenum206"></a></td>
-<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/jdk/internal/org/objectweb/asm/tree/analysis/Analyzer.html#linenum555">merge</a>(0, <a class="variable" href="#linenum188">current</a>, null);</pre></td>
+<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/jdk/internal/org/objectweb/asm/tree/analysis/Analyzer.html#linenum526">merge</a>(0, <a class="variable" href="#linenum188">current</a>, null);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum207" class="linenum-cell" data-linenum="207" href="#linenum207"></a></td>
@@ -964,7 +964,7 @@
 </tr>
 <tr>
 <td><a id="linenum240" class="linenum-cell" data-linenum="240" href="#linenum240"></a></td>
-<td><pre>                            <a class="type" href="/OdinCodeBrowserJdk11/jdk/internal/org/objectweb/asm/tree/analysis/Analyzer.html#linenum555">merge</a>(<a class="variable" href="#linenum238">jump</a>, <a class="variable" href="#linenum188">current</a>, new <a class="type" href="/OdinCodeBrowserJdk11/jdk/internal/org/objectweb/asm/tree/analysis/Subroutine.html#linenum72">Subroutine</a>(<a class="variable" href="#linenum233">j</a>.label,</pre></td>
+<td><pre>                            <a class="type" href="/OdinCodeBrowserJdk11/jdk/internal/org/objectweb/asm/tree/analysis/Analyzer.html#linenum526">merge</a>(<a class="variable" href="#linenum238">jump</a>, <a class="variable" href="#linenum188">current</a>, new <a class="type" href="/OdinCodeBrowserJdk11/jdk/internal/org/objectweb/asm/tree/analysis/Subroutine.html#linenum72">Subroutine</a>(<a class="variable" href="#linenum233">j</a>.label,</pre></td>
 </tr>
 <tr>
 <td><a id="linenum241" class="linenum-cell" data-linenum="241" href="#linenum241"></a></td>
@@ -2088,7 +2088,7 @@
 </tr>
 <tr>
 <td><a id="linenum521" class="linenum-cell" data-linenum="521" href="#linenum521"></a></td>
-<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk11/jdk/internal/org/objectweb/asm/tree/analysis/Analyzer.html#linenum519">newControlFlowExceptionEdge</a>(<a class="variable" href="#linenum519">insn</a>, <a class="variable" href="#linenum94">insns</a>.<a class="type" href="/OdinCodeBrowserJdk11/jdk/internal/org/objectweb/asm/tree/InsnList.html#linenum175">indexOf</a>(<a class="variable" href="#linenum520">tcb</a>.handler));</pre></td>
+<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk11/jdk/internal/org/objectweb/asm/tree/analysis/Analyzer.html#linenum495">newControlFlowExceptionEdge</a>(<a class="variable" href="#linenum519">insn</a>, <a class="variable" href="#linenum94">insns</a>.<a class="type" href="/OdinCodeBrowserJdk11/jdk/internal/org/objectweb/asm/tree/InsnList.html#linenum175">indexOf</a>(<a class="variable" href="#linenum520">tcb</a>.handler));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum522" class="linenum-cell" data-linenum="522" href="#linenum522"></a></td>

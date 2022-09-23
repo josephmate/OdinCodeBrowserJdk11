@@ -268,7 +268,7 @@
 </tr>
 <tr>
 <td><a id="linenum66" class="linenum-cell" data-linenum="66" href="#linenum66"></a></td>
-<td><pre>            AccessController.<a class="type" href="/OdinCodeBrowserJdk11/java/security/AccessController.html#linenum714">doPrivileged</a>(new <a class="type" href="/OdinCodeBrowserJdk11/java/security/PrivilegedAction.html#linenum43">PrivilegedAction</a>&lt;&gt;() {</pre></td>
+<td><pre>            AccessController.<a class="type" href="/OdinCodeBrowserJdk11/java/security/AccessController.html#linenum420">doPrivileged</a>(new <a class="type" href="/OdinCodeBrowserJdk11/java/security/PrivilegedAction.html#linenum43">PrivilegedAction</a>&lt;&gt;() {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum67" class="linenum-cell" data-linenum="67" href="#linenum67"></a></td>
@@ -344,7 +344,7 @@
 </tr>
 <tr>
 <td><a id="linenum85" class="linenum-cell" data-linenum="85" href="#linenum85"></a></td>
-<td><pre>        <a class="variable" href="#linenum57">dumpDir</a> = Objects.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Objects.html#linenum344">requireNonNull</a>(<a class="variable" href="#linenum59">path</a>);</pre></td>
+<td><pre>        <a class="variable" href="#linenum57">dumpDir</a> = Objects.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Objects.html#linenum219">requireNonNull</a>(<a class="variable" href="#linenum59">path</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum86" class="linenum-cell" data-linenum="86" href="#linenum86"></a></td>
@@ -428,15 +428,15 @@
 </tr>
 <tr>
 <td><a id="linenum106" class="linenum-cell" data-linenum="106" href="#linenum106"></a></td>
-<td><pre>                <a class="variable" href="#linenum100">sb</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/StringBuilder.html#linenum264">append</a>('%');</pre></td>
+<td><pre>                <a class="variable" href="#linenum100">sb</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/StringBuilder.html#linenum166">append</a>('%');</pre></td>
 </tr>
 <tr>
 <td><a id="linenum107" class="linenum-cell" data-linenum="107" href="#linenum107"></a></td>
-<td><pre>                <a class="variable" href="#linenum100">sb</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/StringBuilder.html#linenum264">append</a>(<a class="variable" href="#linenum46">HEX</a>[<a class="variable" href="#linenum103">c</a> &gt;&gt; 4 &amp; 0x0F]);</pre></td>
+<td><pre>                <a class="variable" href="#linenum100">sb</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/StringBuilder.html#linenum166">append</a>(<a class="variable" href="#linenum46">HEX</a>[<a class="variable" href="#linenum103">c</a> &gt;&gt; 4 &amp; 0x0F]);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum108" class="linenum-cell" data-linenum="108" href="#linenum108"></a></td>
-<td><pre>                <a class="variable" href="#linenum100">sb</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/StringBuilder.html#linenum264">append</a>(<a class="variable" href="#linenum46">HEX</a>[<a class="variable" href="#linenum103">c</a> &amp; 0x0F]);</pre></td>
+<td><pre>                <a class="variable" href="#linenum100">sb</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/StringBuilder.html#linenum166">append</a>(<a class="variable" href="#linenum46">HEX</a>[<a class="variable" href="#linenum103">c</a> &amp; 0x0F]);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum109" class="linenum-cell" data-linenum="109" href="#linenum109"></a></td>
@@ -456,7 +456,7 @@
 </tr>
 <tr>
 <td><a id="linenum113" class="linenum-cell" data-linenum="113" href="#linenum113"></a></td>
-<td><pre>                        <a class="variable" href="#linenum100">sb</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/StringBuilder.html#linenum264">append</a>(<a class="variable" href="#linenum53">REPLACEMENT</a>[<a class="variable" href="#linenum110">j</a>]);</pre></td>
+<td><pre>                        <a class="variable" href="#linenum100">sb</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/StringBuilder.html#linenum166">append</a>(<a class="variable" href="#linenum53">REPLACEMENT</a>[<a class="variable" href="#linenum110">j</a>]);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum114" class="linenum-cell" data-linenum="114" href="#linenum114"></a></td>
@@ -476,7 +476,7 @@
 </tr>
 <tr>
 <td><a id="linenum118" class="linenum-cell" data-linenum="118" href="#linenum118"></a></td>
-<td><pre>                    <a class="variable" href="#linenum100">sb</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/StringBuilder.html#linenum264">append</a>(<a class="variable" href="#linenum103">c</a>);</pre></td>
+<td><pre>                    <a class="variable" href="#linenum100">sb</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/StringBuilder.html#linenum166">append</a>(<a class="variable" href="#linenum103">c</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum119" class="linenum-cell" data-linenum="119" href="#linenum119"></a></td>
@@ -520,7 +520,7 @@
 </tr>
 <tr>
 <td><a id="linenum129" class="linenum-cell" data-linenum="129" href="#linenum129"></a></td>
-<td><pre>            <a class="variable" href="#linenum127">file</a> = <a class="variable" href="#linenum57">dumpDir</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/nio/file/Path.html#linenum514">resolve</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/ProxyClassesDumper.html#linenum98">encodeForFilename</a>(<a class="variable" href="#linenum126">className</a>) + <span class='string'>&quot;.class&quot;</span>);</pre></td>
+<td><pre>            <a class="variable" href="#linenum127">file</a> = <a class="variable" href="#linenum57">dumpDir</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/nio/file/Path.html#linenum488">resolve</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/ProxyClassesDumper.html#linenum98">encodeForFilename</a>(<a class="variable" href="#linenum126">className</a>) + <span class='string'>&quot;.class&quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum130" class="linenum-cell" data-linenum="130" href="#linenum130"></a></td>

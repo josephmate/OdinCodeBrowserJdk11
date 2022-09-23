@@ -764,19 +764,19 @@
 </tr>
 <tr>
 <td><a id="linenum190" class="linenum-cell" data-linenum="190" href="#linenum190"></a></td>
-<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/AbstractChronology.html#linenum159">registerChrono</a>(HijrahChronology.INSTANCE);</pre></td>
+<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/AbstractChronology.html#linenum146">registerChrono</a>(HijrahChronology.INSTANCE);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum191" class="linenum-cell" data-linenum="191" href="#linenum191"></a></td>
-<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/AbstractChronology.html#linenum159">registerChrono</a>(JapaneseChronology.INSTANCE);</pre></td>
+<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/AbstractChronology.html#linenum146">registerChrono</a>(JapaneseChronology.INSTANCE);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum192" class="linenum-cell" data-linenum="192" href="#linenum192"></a></td>
-<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/AbstractChronology.html#linenum159">registerChrono</a>(MinguoChronology.INSTANCE);</pre></td>
+<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/AbstractChronology.html#linenum146">registerChrono</a>(MinguoChronology.INSTANCE);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum193" class="linenum-cell" data-linenum="193" href="#linenum193"></a></td>
-<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/AbstractChronology.html#linenum159">registerChrono</a>(ThaiBuddhistChronology.INSTANCE);</pre></td>
+<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/AbstractChronology.html#linenum146">registerChrono</a>(ThaiBuddhistChronology.INSTANCE);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum194" class="linenum-cell" data-linenum="194" href="#linenum194"></a></td>
@@ -792,7 +792,7 @@
 </tr>
 <tr>
 <td><a id="linenum197" class="linenum-cell" data-linenum="197" href="#linenum197"></a></td>
-<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/util/ServiceLoader.html#linenum390">ServiceLoader</a>&lt;<a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/AbstractChronology.html#linenum127">AbstractChronology</a>&gt; loader =  ServiceLoader.<a class="type" href="/OdinCodeBrowserJdk11/java/util/ServiceLoader.html#linenum1777">load</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/AbstractChronology.html#linenum127">AbstractChronology</a>.class, null);</pre></td>
+<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/util/ServiceLoader.html#linenum390">ServiceLoader</a>&lt;<a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/AbstractChronology.html#linenum127">AbstractChronology</a>&gt; loader =  ServiceLoader.<a class="type" href="/OdinCodeBrowserJdk11/java/util/ServiceLoader.html#linenum1642">load</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/AbstractChronology.html#linenum127">AbstractChronology</a>.class, null);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum198" class="linenum-cell" data-linenum="198" href="#linenum198"></a></td>
@@ -804,7 +804,7 @@
 </tr>
 <tr>
 <td><a id="linenum200" class="linenum-cell" data-linenum="200" href="#linenum200"></a></td>
-<td><pre>                if (<a class="variable" href="#linenum199">id</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum1002">equals</a>(<span class='string'>&quot;ISO&quot;</span>) || <a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/AbstractChronology.html#linenum159">registerChrono</a>(<a class="variable" href="#linenum159">chrono</a>) != null) {</pre></td>
+<td><pre>                if (<a class="variable" href="#linenum199">id</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum1002">equals</a>(<span class='string'>&quot;ISO&quot;</span>) || <a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/AbstractChronology.html#linenum146">registerChrono</a>(<a class="variable" href="#linenum159">chrono</a>) != null) {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum201" class="linenum-cell" data-linenum="201" href="#linenum201"></a></td>
@@ -816,7 +816,7 @@
 </tr>
 <tr>
 <td><a id="linenum203" class="linenum-cell" data-linenum="203" href="#linenum203"></a></td>
-<td><pre>                    <a class="variable" href="#linenum202">logger</a>.<a class="type" href="/OdinCodeBrowserJdk11/sun/util/logging/PlatformLogger.html#linenum408">warning</a>(<span class='string'>&quot;Ignoring duplicate Chronology, from ServiceLoader configuration &quot;</span>  + <a class="variable" href="#linenum199">id</a>);</pre></td>
+<td><pre>                    <a class="variable" href="#linenum202">logger</a>.<a class="type" href="/OdinCodeBrowserJdk11/sun/util/logging/PlatformLogger.html#linenum400">warning</a>(<span class='string'>&quot;Ignoring duplicate Chronology, from ServiceLoader configuration &quot;</span>  + <a class="variable" href="#linenum199">id</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum204" class="linenum-cell" data-linenum="204" href="#linenum204"></a></td>
@@ -836,7 +836,7 @@
 </tr>
 <tr>
 <td><a id="linenum208" class="linenum-cell" data-linenum="208" href="#linenum208"></a></td>
-<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/AbstractChronology.html#linenum159">registerChrono</a>(IsoChronology.INSTANCE);</pre></td>
+<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/AbstractChronology.html#linenum146">registerChrono</a>(IsoChronology.INSTANCE);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum209" class="linenum-cell" data-linenum="209" href="#linenum209"></a></td>
@@ -972,7 +972,7 @@
 </tr>
 <tr>
 <td><a id="linenum242" class="linenum-cell" data-linenum="242" href="#linenum242"></a></td>
-<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/java/util/ServiceLoader.html#linenum390">ServiceLoader</a>&lt;<a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/Chronology.html#linenum163">Chronology</a>&gt; loader = ServiceLoader.<a class="type" href="/OdinCodeBrowserJdk11/java/util/ServiceLoader.html#linenum1777">load</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/Chronology.html#linenum163">Chronology</a>.class);</pre></td>
+<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/java/util/ServiceLoader.html#linenum390">ServiceLoader</a>&lt;<a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/Chronology.html#linenum163">Chronology</a>&gt; loader = ServiceLoader.<a class="type" href="/OdinCodeBrowserJdk11/java/util/ServiceLoader.html#linenum1688">load</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/Chronology.html#linenum163">Chronology</a>.class);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum243" class="linenum-cell" data-linenum="243" href="#linenum243"></a></td>
@@ -1104,7 +1104,7 @@
 </tr>
 <tr>
 <td><a id="linenum275" class="linenum-cell" data-linenum="275" href="#linenum275"></a></td>
-<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/java/util/ServiceLoader.html#linenum390">ServiceLoader</a>&lt;<a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/Chronology.html#linenum163">Chronology</a>&gt; loader = ServiceLoader.<a class="type" href="/OdinCodeBrowserJdk11/java/util/ServiceLoader.html#linenum1777">load</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/Chronology.html#linenum163">Chronology</a>.class);</pre></td>
+<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/java/util/ServiceLoader.html#linenum390">ServiceLoader</a>&lt;<a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/Chronology.html#linenum163">Chronology</a>&gt; loader = ServiceLoader.<a class="type" href="/OdinCodeBrowserJdk11/java/util/ServiceLoader.html#linenum1688">load</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/Chronology.html#linenum163">Chronology</a>.class);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum276" class="linenum-cell" data-linenum="276" href="#linenum276"></a></td>
@@ -1264,7 +1264,7 @@
 </tr>
 <tr>
 <td><a id="linenum315" class="linenum-cell" data-linenum="315" href="#linenum315"></a></td>
-<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/java/util/ServiceLoader.html#linenum390">ServiceLoader</a>&lt;<a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/Chronology.html#linenum163">Chronology</a>&gt; loader = ServiceLoader.<a class="type" href="/OdinCodeBrowserJdk11/java/util/ServiceLoader.html#linenum1777">load</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/Chronology.html#linenum163">Chronology</a>.class);</pre></td>
+<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/java/util/ServiceLoader.html#linenum390">ServiceLoader</a>&lt;<a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/Chronology.html#linenum163">Chronology</a>&gt; loader = ServiceLoader.<a class="type" href="/OdinCodeBrowserJdk11/java/util/ServiceLoader.html#linenum1688">load</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/Chronology.html#linenum163">Chronology</a>.class);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum316" class="linenum-cell" data-linenum="316" href="#linenum316"></a></td>
@@ -2100,11 +2100,11 @@
 </tr>
 <tr>
 <td><a id="linenum524" class="linenum-cell" data-linenum="524" href="#linenum524"></a></td>
-<td><pre>            long months = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum881">subtractExact</a>(<a class="variable" href="#linenum521">fieldValues</a>.remove(MONTH_OF_YEAR), 1);</pre></td>
+<td><pre>            long months = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum860">subtractExact</a>(<a class="variable" href="#linenum521">fieldValues</a>.remove(MONTH_OF_YEAR), 1);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum525" class="linenum-cell" data-linenum="525" href="#linenum525"></a></td>
-<td><pre>            long days = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum881">subtractExact</a>(<a class="variable" href="#linenum521">fieldValues</a>.remove(DAY_OF_MONTH), 1);</pre></td>
+<td><pre>            long days = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum860">subtractExact</a>(<a class="variable" href="#linenum521">fieldValues</a>.remove(DAY_OF_MONTH), 1);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum526" class="linenum-cell" data-linenum="526" href="#linenum526"></a></td>
@@ -2180,7 +2180,7 @@
 </tr>
 <tr>
 <td><a id="linenum544" class="linenum-cell" data-linenum="544" href="#linenum544"></a></td>
-<td><pre>            long days = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum881">subtractExact</a>(<a class="variable" href="#linenum541">fieldValues</a>.remove(DAY_OF_YEAR), 1);</pre></td>
+<td><pre>            long days = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum860">subtractExact</a>(<a class="variable" href="#linenum541">fieldValues</a>.remove(DAY_OF_YEAR), 1);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum545" class="linenum-cell" data-linenum="545" href="#linenum545"></a></td>
@@ -2220,15 +2220,15 @@
 </tr>
 <tr>
 <td><a id="linenum554" class="linenum-cell" data-linenum="554" href="#linenum554"></a></td>
-<td><pre>            long months = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum881">subtractExact</a>(<a class="variable" href="#linenum551">fieldValues</a>.remove(MONTH_OF_YEAR), 1);</pre></td>
+<td><pre>            long months = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum860">subtractExact</a>(<a class="variable" href="#linenum551">fieldValues</a>.remove(MONTH_OF_YEAR), 1);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum555" class="linenum-cell" data-linenum="555" href="#linenum555"></a></td>
-<td><pre>            long weeks = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum881">subtractExact</a>(<a class="variable" href="#linenum551">fieldValues</a>.remove(ALIGNED_WEEK_OF_MONTH), 1);</pre></td>
+<td><pre>            long weeks = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum860">subtractExact</a>(<a class="variable" href="#linenum551">fieldValues</a>.remove(ALIGNED_WEEK_OF_MONTH), 1);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum556" class="linenum-cell" data-linenum="556" href="#linenum556"></a></td>
-<td><pre>            long days = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum881">subtractExact</a>(<a class="variable" href="#linenum551">fieldValues</a>.remove(ALIGNED_DAY_OF_WEEK_IN_MONTH), 1);</pre></td>
+<td><pre>            long days = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum860">subtractExact</a>(<a class="variable" href="#linenum551">fieldValues</a>.remove(ALIGNED_DAY_OF_WEEK_IN_MONTH), 1);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum557" class="linenum-cell" data-linenum="557" href="#linenum557"></a></td>
@@ -2292,15 +2292,15 @@
 </tr>
 <tr>
 <td><a id="linenum572" class="linenum-cell" data-linenum="572" href="#linenum572"></a></td>
-<td><pre>            long months = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum881">subtractExact</a>(<a class="variable" href="#linenum569">fieldValues</a>.remove(MONTH_OF_YEAR), 1);</pre></td>
+<td><pre>            long months = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum860">subtractExact</a>(<a class="variable" href="#linenum569">fieldValues</a>.remove(MONTH_OF_YEAR), 1);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum573" class="linenum-cell" data-linenum="573" href="#linenum573"></a></td>
-<td><pre>            long weeks = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum881">subtractExact</a>(<a class="variable" href="#linenum569">fieldValues</a>.remove(ALIGNED_WEEK_OF_MONTH), 1);</pre></td>
+<td><pre>            long weeks = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum860">subtractExact</a>(<a class="variable" href="#linenum569">fieldValues</a>.remove(ALIGNED_WEEK_OF_MONTH), 1);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum574" class="linenum-cell" data-linenum="574" href="#linenum574"></a></td>
-<td><pre>            long dow = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum881">subtractExact</a>(<a class="variable" href="#linenum569">fieldValues</a>.remove(DAY_OF_WEEK), 1);</pre></td>
+<td><pre>            long dow = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum860">subtractExact</a>(<a class="variable" href="#linenum569">fieldValues</a>.remove(DAY_OF_WEEK), 1);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum575" class="linenum-cell" data-linenum="575" href="#linenum575"></a></td>
@@ -2364,11 +2364,11 @@
 </tr>
 <tr>
 <td><a id="linenum590" class="linenum-cell" data-linenum="590" href="#linenum590"></a></td>
-<td><pre>            long weeks = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum881">subtractExact</a>(<a class="variable" href="#linenum587">fieldValues</a>.remove(ALIGNED_WEEK_OF_YEAR), 1);</pre></td>
+<td><pre>            long weeks = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum860">subtractExact</a>(<a class="variable" href="#linenum587">fieldValues</a>.remove(ALIGNED_WEEK_OF_YEAR), 1);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum591" class="linenum-cell" data-linenum="591" href="#linenum591"></a></td>
-<td><pre>            long days = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum881">subtractExact</a>(<a class="variable" href="#linenum587">fieldValues</a>.remove(ALIGNED_DAY_OF_WEEK_IN_YEAR), 1);</pre></td>
+<td><pre>            long days = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum860">subtractExact</a>(<a class="variable" href="#linenum587">fieldValues</a>.remove(ALIGNED_DAY_OF_WEEK_IN_YEAR), 1);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum592" class="linenum-cell" data-linenum="592" href="#linenum592"></a></td>
@@ -2428,11 +2428,11 @@
 </tr>
 <tr>
 <td><a id="linenum606" class="linenum-cell" data-linenum="606" href="#linenum606"></a></td>
-<td><pre>            long weeks = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum881">subtractExact</a>(<a class="variable" href="#linenum603">fieldValues</a>.remove(ALIGNED_WEEK_OF_YEAR), 1);</pre></td>
+<td><pre>            long weeks = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum860">subtractExact</a>(<a class="variable" href="#linenum603">fieldValues</a>.remove(ALIGNED_WEEK_OF_YEAR), 1);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum607" class="linenum-cell" data-linenum="607" href="#linenum607"></a></td>
-<td><pre>            long dow = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum881">subtractExact</a>(<a class="variable" href="#linenum603">fieldValues</a>.remove(DAY_OF_WEEK), 1);</pre></td>
+<td><pre>            long dow = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum860">subtractExact</a>(<a class="variable" href="#linenum603">fieldValues</a>.remove(DAY_OF_WEEK), 1);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum608" class="linenum-cell" data-linenum="608" href="#linenum608"></a></td>
@@ -2504,7 +2504,7 @@
 </tr>
 <tr>
 <td><a id="linenum625" class="linenum-cell" data-linenum="625" href="#linenum625"></a></td>
-<td><pre>            <a class="variable" href="#linenum620">date</a> = <a class="variable" href="#linenum620">date</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/ChronoLocalDate.html#linenum460">plus</a>(Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum881">subtractExact</a>(<a class="variable" href="#linenum619">dow</a>,  7) / 7, WEEKS);</pre></td>
+<td><pre>            <a class="variable" href="#linenum620">date</a> = <a class="variable" href="#linenum620">date</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/ChronoLocalDate.html#linenum460">plus</a>(Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum860">subtractExact</a>(<a class="variable" href="#linenum619">dow</a>,  7) / 7, WEEKS);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum626" class="linenum-cell" data-linenum="626" href="#linenum626"></a></td>
@@ -2516,7 +2516,7 @@
 </tr>
 <tr>
 <td><a id="linenum628" class="linenum-cell" data-linenum="628" href="#linenum628"></a></td>
-<td><pre>        return <a class="variable" href="#linenum620">date</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/ChronoLocalDate.html#linenum437">with</a>(nextOrSame(DayOfWeek.of((int) <a class="variable" href="#linenum619">dow</a>)));</pre></td>
+<td><pre>        return <a class="variable" href="#linenum620">date</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/ChronoLocalDate.html#linenum426">with</a>(nextOrSame(DayOfWeek.of((int) <a class="variable" href="#linenum619">dow</a>)));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum629" class="linenum-cell" data-linenum="629" href="#linenum629"></a></td>

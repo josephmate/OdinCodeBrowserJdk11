@@ -316,7 +316,7 @@
 </tr>
 <tr>
 <td><a id="linenum78" class="linenum-cell" data-linenum="78" href="#linenum78"></a></td>
-<td><pre>        AccessController.<a class="type" href="/OdinCodeBrowserJdk11/java/security/AccessController.html#linenum714">doPrivileged</a>((<a class="type" href="/OdinCodeBrowserJdk11/java/security/PrivilegedAction.html#linenum43">PrivilegedAction</a>&lt;<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Boolean.html#linenum45">Boolean</a>&gt;)</pre></td>
+<td><pre>        AccessController.<a class="type" href="/OdinCodeBrowserJdk11/java/security/AccessController.html#linenum298">doPrivileged</a>((<a class="type" href="/OdinCodeBrowserJdk11/java/security/PrivilegedAction.html#linenum43">PrivilegedAction</a>&lt;<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Boolean.html#linenum45">Boolean</a>&gt;)</pre></td>
 </tr>
 <tr>
 <td><a id="linenum79" class="linenum-cell" data-linenum="79" href="#linenum79"></a></td>
@@ -1332,7 +1332,7 @@
 </tr>
 <tr>
 <td><a id="linenum332" class="linenum-cell" data-linenum="332" href="#linenum332"></a></td>
-<td><pre>            <a class="variable" href="#linenum303">xwriter</a>.<a class="type" href="/OdinCodeBrowserJdk11/org/jcp/xml/dsig/internal/dom/XmlWriter.html#linenum86">writeCharacters</a>(Base64.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Base64.html#linenum131">getMimeEncoder</a>().encodeToString(<a class="variable" href="#linenum136">digestValue</a>));</pre></td>
+<td><pre>            <a class="variable" href="#linenum303">xwriter</a>.<a class="type" href="/OdinCodeBrowserJdk11/org/jcp/xml/dsig/internal/dom/XmlWriter.html#linenum86">writeCharacters</a>(Base64.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Base64.html#linenum109">getMimeEncoder</a>().encodeToString(<a class="variable" href="#linenum136">digestValue</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum333" class="linenum-cell" data-linenum="333" href="#linenum333"></a></td>
@@ -1404,7 +1404,7 @@
 </tr>
 <tr>
 <td><a id="linenum350" class="linenum-cell" data-linenum="350" href="#linenum350"></a></td>
-<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum125">String</a> encodedDV = Base64.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Base64.html#linenum131">getMimeEncoder</a>().encodeToString(<a class="variable" href="#linenum136">digestValue</a>);</pre></td>
+<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum125">String</a> encodedDV = Base64.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Base64.html#linenum109">getMimeEncoder</a>().encodeToString(<a class="variable" href="#linenum136">digestValue</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum351" class="linenum-cell" data-linenum="351" href="#linenum351"></a></td>
@@ -1516,11 +1516,11 @@
 </tr>
 <tr>
 <td><a id="linenum378" class="linenum-cell" data-linenum="378" href="#linenum378"></a></td>
-<td><pre>            <a class="variable" href="#linenum81">LOG</a>.debug(<span class='string'>&quot;Expected digest: &quot;</span> + Base64.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Base64.html#linenum131">getMimeEncoder</a>().encodeToString(<a class="variable" href="#linenum136">digestValue</a>));</pre></td>
+<td><pre>            <a class="variable" href="#linenum81">LOG</a>.debug(<span class='string'>&quot;Expected digest: &quot;</span> + Base64.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Base64.html#linenum109">getMimeEncoder</a>().encodeToString(<a class="variable" href="#linenum136">digestValue</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum379" class="linenum-cell" data-linenum="379" href="#linenum379"></a></td>
-<td><pre>            <a class="variable" href="#linenum81">LOG</a>.debug(<span class='string'>&quot;Actual digest: &quot;</span> + Base64.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Base64.html#linenum131">getMimeEncoder</a>().encodeToString(<a class="variable" href="#linenum93">calcDigestValue</a>));</pre></td>
+<td><pre>            <a class="variable" href="#linenum81">LOG</a>.debug(<span class='string'>&quot;Actual digest: &quot;</span> + Base64.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Base64.html#linenum109">getMimeEncoder</a>().encodeToString(<a class="variable" href="#linenum93">calcDigestValue</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum380" class="linenum-cell" data-linenum="380" href="#linenum380"></a></td>
@@ -1532,7 +1532,7 @@
 </tr>
 <tr>
 <td><a id="linenum382" class="linenum-cell" data-linenum="382" href="#linenum382"></a></td>
-<td><pre>        <a class="variable" href="#linenum97">validationStatus</a> = Arrays.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Arrays.html#linenum3324">equals</a>(<a class="variable" href="#linenum136">digestValue</a>, <a class="variable" href="#linenum93">calcDigestValue</a>);</pre></td>
+<td><pre>        <a class="variable" href="#linenum97">validationStatus</a> = Arrays.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Arrays.html#linenum2573">equals</a>(<a class="variable" href="#linenum136">digestValue</a>, <a class="variable" href="#linenum93">calcDigestValue</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum383" class="linenum-cell" data-linenum="383" href="#linenum383"></a></td>
@@ -1700,7 +1700,7 @@
 </tr>
 <tr>
 <td><a id="linenum424" class="linenum-cell" data-linenum="424" href="#linenum424"></a></td>
-<td><pre>                <a class="variable" href="#linenum100">md</a> = MessageDigest.<a class="type" href="/OdinCodeBrowserJdk11/java/security/MessageDigest.html#linenum288">getInstance</a></pre></td>
+<td><pre>                <a class="variable" href="#linenum100">md</a> = MessageDigest.<a class="type" href="/OdinCodeBrowserJdk11/java/security/MessageDigest.html#linenum173">getInstance</a></pre></td>
 </tr>
 <tr>
 <td><a id="linenum425" class="linenum-cell" data-linenum="425" href="#linenum425"></a></td>
@@ -2308,7 +2308,7 @@
 </tr>
 <tr>
 <td><a id="linenum576" class="linenum-cell" data-linenum="576" href="#linenum576"></a></td>
-<td><pre>            Arrays.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Arrays.html#linenum3324">equals</a>(<a class="variable" href="#linenum136">digestValue</a>, <a class="variable" href="#linenum567">oref</a>.<a class="type" href="/OdinCodeBrowserJdk11/javax/xml/crypto/dsig/Reference.html#linenum114">getDigestValue</a>());</pre></td>
+<td><pre>            Arrays.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Arrays.html#linenum2573">equals</a>(<a class="variable" href="#linenum136">digestValue</a>, <a class="variable" href="#linenum567">oref</a>.<a class="type" href="/OdinCodeBrowserJdk11/javax/xml/crypto/dsig/Reference.html#linenum114">getDigestValue</a>());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum577" class="linenum-cell" data-linenum="577" href="#linenum577"></a></td>
@@ -2388,7 +2388,7 @@
 </tr>
 <tr>
 <td><a id="linenum596" class="linenum-cell" data-linenum="596" href="#linenum596"></a></td>
-<td><pre>            <a class="variable" href="#linenum585">result</a> = 31 * <a class="variable" href="#linenum585">result</a> + Arrays.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Arrays.html#linenum4678">hashCode</a>(<a class="variable" href="#linenum136">digestValue</a>);</pre></td>
+<td><pre>            <a class="variable" href="#linenum585">result</a> = 31 * <a class="variable" href="#linenum585">result</a> + Arrays.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Arrays.html#linenum4454">hashCode</a>(<a class="variable" href="#linenum136">digestValue</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum597" class="linenum-cell" data-linenum="597" href="#linenum597"></a></td>
@@ -2464,7 +2464,7 @@
 </tr>
 <tr>
 <td><a id="linenum615" class="linenum-cell" data-linenum="615" href="#linenum615"></a></td>
-<td><pre>                    final <a class="type" href="/OdinCodeBrowserJdk11/java/util/Set.html#linenum113">Set</a>&lt;<a class="type" href="/OdinCodeBrowserJdk11/org/w3c/dom/Node.html#linenum170">Node</a>&gt; s = <a class="variable" href="#linenum612">xsi</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/xml/internal/security/signature/XMLSignatureInput.html#linenum224">getNodeSet</a>();</pre></td>
+<td><pre>                    final <a class="type" href="/OdinCodeBrowserJdk11/java/util/Set.html#linenum113">Set</a>&lt;<a class="type" href="/OdinCodeBrowserJdk11/org/w3c/dom/Node.html#linenum170">Node</a>&gt; s = <a class="variable" href="#linenum612">xsi</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/xml/internal/security/signature/XMLSignatureInput.html#linenum200">getNodeSet</a>();</pre></td>
 </tr>
 <tr>
 <td><a id="linenum616" class="linenum-cell" data-linenum="616" href="#linenum616"></a></td>

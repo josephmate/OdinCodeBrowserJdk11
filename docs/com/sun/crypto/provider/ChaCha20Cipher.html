@@ -828,7 +828,7 @@
 </tr>
 <tr>
 <td><a id="linenum206" class="linenum-cell" data-linenum="206" href="#linenum206"></a></td>
-<td><pre>                    Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum840">addExact</a>(<a class="variable" href="#linenum199">inputLen</a>, <a class="variable" href="#linenum99">TAG_LENGTH</a>) :</pre></td>
+<td><pre>                    Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum820">addExact</a>(<a class="variable" href="#linenum199">inputLen</a>, <a class="variable" href="#linenum99">TAG_LENGTH</a>) :</pre></td>
 </tr>
 <tr>
 <td><a id="linenum207" class="linenum-cell" data-linenum="207" href="#linenum207"></a></td>
@@ -984,11 +984,11 @@
 </tr>
 <tr>
 <td><a id="linenum245" class="linenum-cell" data-linenum="245" href="#linenum245"></a></td>
-<td><pre>                <a class="variable" href="#linenum237">params</a> = AlgorithmParameters.<a class="type" href="/OdinCodeBrowserJdk11/java/security/AlgorithmParameters.html#linenum256">getInstance</a>(<span class='string'>&quot;ChaCha20-Poly1305&quot;</span>);</pre></td>
+<td><pre>                <a class="variable" href="#linenum237">params</a> = AlgorithmParameters.<a class="type" href="/OdinCodeBrowserJdk11/java/security/AlgorithmParameters.html#linenum154">getInstance</a>(<span class='string'>&quot;ChaCha20-Poly1305&quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum246" class="linenum-cell" data-linenum="246" href="#linenum246"></a></td>
-<td><pre>                <a class="variable" href="#linenum237">params</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/security/AlgorithmParameters.html#linenum331">init</a>(<a class="variable" href="#linenum241">derNonce</a>);</pre></td>
+<td><pre>                <a class="variable" href="#linenum237">params</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/security/AlgorithmParameters.html#linenum289">init</a>(<a class="variable" href="#linenum241">derNonce</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum247" class="linenum-cell" data-linenum="247" href="#linenum247"></a></td>
@@ -1664,7 +1664,7 @@
 </tr>
 <tr>
 <td><a id="linenum415" class="linenum-cell" data-linenum="415" href="#linenum415"></a></td>
-<td><pre>                    <a class="type" href="/OdinCodeBrowserJdk11/sun/security/util/DerValue.html#linenum55">DerValue</a> dv = new <a class="type" href="/OdinCodeBrowserJdk11/sun/security/util/DerValue.html#linenum55">DerValue</a>(<a class="variable" href="#linenum393">params</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/security/AlgorithmParameters.html#linenum398">getEncoded</a>());</pre></td>
+<td><pre>                    <a class="type" href="/OdinCodeBrowserJdk11/sun/security/util/DerValue.html#linenum55">DerValue</a> dv = new <a class="type" href="/OdinCodeBrowserJdk11/sun/security/util/DerValue.html#linenum55">DerValue</a>(<a class="variable" href="#linenum393">params</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/security/AlgorithmParameters.html#linenum376">getEncoded</a>());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum416" class="linenum-cell" data-linenum="416" href="#linenum416"></a></td>
@@ -1880,7 +1880,7 @@
 </tr>
 <tr>
 <td><a id="linenum469" class="linenum-cell" data-linenum="469" href="#linenum469"></a></td>
-<td><pre>                <a class="variable" href="#linenum100">aadLen</a> = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum840">addExact</a>(<a class="variable" href="#linenum100">aadLen</a>, <a class="variable" href="#linenum454">len</a>);</pre></td>
+<td><pre>                <a class="variable" href="#linenum100">aadLen</a> = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum820">addExact</a>(<a class="variable" href="#linenum100">aadLen</a>, <a class="variable" href="#linenum454">len</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum470" class="linenum-cell" data-linenum="470" href="#linenum470"></a></td>
@@ -2020,7 +2020,7 @@
 </tr>
 <tr>
 <td><a id="linenum504" class="linenum-cell" data-linenum="504" href="#linenum504"></a></td>
-<td><pre>                <a class="variable" href="#linenum100">aadLen</a> = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum840">addExact</a>(<a class="variable" href="#linenum100">aadLen</a>, (<a class="variable" href="#linenum489">src</a>.limit() - <a class="variable" href="#linenum489">src</a>.position()));</pre></td>
+<td><pre>                <a class="variable" href="#linenum100">aadLen</a> = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum820">addExact</a>(<a class="variable" href="#linenum100">aadLen</a>, (<a class="variable" href="#linenum489">src</a>.limit() - <a class="variable" href="#linenum489">src</a>.position()));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum505" class="linenum-cell" data-linenum="505" href="#linenum505"></a></td>
@@ -2096,7 +2096,7 @@
 </tr>
 <tr>
 <td><a id="linenum523" class="linenum-cell" data-linenum="523" href="#linenum523"></a></td>
-<td><pre>        <a class="variable" href="#linenum522">rand</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/security/SecureRandom.html#linenum763">nextBytes</a>(<a class="variable" href="#linenum521">newNonce</a>);</pre></td>
+<td><pre>        <a class="variable" href="#linenum522">rand</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/security/SecureRandom.html#linenum738">nextBytes</a>(<a class="variable" href="#linenum521">newNonce</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum524" class="linenum-cell" data-linenum="524" href="#linenum524"></a></td>
@@ -4132,7 +4132,7 @@
 </tr>
 <tr>
 <td><a id="linenum1032" class="linenum-cell" data-linenum="1032" href="#linenum1032"></a></td>
-<td><pre>            int xformLen = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum1570">min</a>(<a class="variable" href="#linenum1016">remainingData</a>, <a class="variable" href="#linenum1019">ksRemain</a>);</pre></td>
+<td><pre>            int xformLen = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum1511">min</a>(<a class="variable" href="#linenum1016">remainingData</a>, <a class="variable" href="#linenum1019">ksRemain</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1033" class="linenum-cell" data-linenum="1033" href="#linenum1033"></a></td>
@@ -4372,7 +4372,7 @@
 </tr>
 <tr>
 <td><a id="linenum1092" class="linenum-cell" data-linenum="1092" href="#linenum1092"></a></td>
-<td><pre>        <a class="variable" href="#linenum112">authenticator</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/crypto/provider/Poly1305.html#linenum184">engineUpdate</a>(<a class="variable" href="#linenum1090">data</a>, <a class="variable" href="#linenum1090">offset</a>, <a class="variable" href="#linenum1090">length</a>);</pre></td>
+<td><pre>        <a class="variable" href="#linenum112">authenticator</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/crypto/provider/Poly1305.html#linenum150">engineUpdate</a>(<a class="variable" href="#linenum1090">data</a>, <a class="variable" href="#linenum1090">offset</a>, <a class="variable" href="#linenum1090">length</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1093" class="linenum-cell" data-linenum="1093" href="#linenum1093"></a></td>
@@ -4484,7 +4484,7 @@
 </tr>
 <tr>
 <td><a id="linenum1120" class="linenum-cell" data-linenum="1120" href="#linenum1120"></a></td>
-<td><pre>        <a class="variable" href="#linenum112">authenticator</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/crypto/provider/Poly1305.html#linenum184">engineUpdate</a>(<a class="variable" href="#linenum108">lenBuf</a>, 0, <a class="variable" href="#linenum108">lenBuf</a>.length);</pre></td>
+<td><pre>        <a class="variable" href="#linenum112">authenticator</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/crypto/provider/Poly1305.html#linenum150">engineUpdate</a>(<a class="variable" href="#linenum108">lenBuf</a>, 0, <a class="variable" href="#linenum108">lenBuf</a>.length);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1121" class="linenum-cell" data-linenum="1121" href="#linenum1121"></a></td>
@@ -4548,7 +4548,7 @@
 </tr>
 <tr>
 <td><a id="linenum1136" class="linenum-cell" data-linenum="1136" href="#linenum1136"></a></td>
-<td><pre>        <a class="variable" href="#linenum112">authenticator</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/crypto/provider/Poly1305.html#linenum184">engineUpdate</a>(<a class="variable" href="#linenum105">padBuf</a>, 0,</pre></td>
+<td><pre>        <a class="variable" href="#linenum112">authenticator</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/crypto/provider/Poly1305.html#linenum150">engineUpdate</a>(<a class="variable" href="#linenum105">padBuf</a>, 0,</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1137" class="linenum-cell" data-linenum="1137" href="#linenum1137"></a></td>
@@ -5468,7 +5468,7 @@
 </tr>
 <tr>
 <td><a id="linenum1366" class="linenum-cell" data-linenum="1366" href="#linenum1366"></a></td>
-<td><pre>            if (Arrays.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Arrays.html#linenum7570">compare</a>(<a class="variable" href="#linenum1333">ctPlusTag</a>, <a class="variable" href="#linenum1354">ctLen</a>, <a class="variable" href="#linenum1334">ctPlusTagLen</a>,</pre></td>
+<td><pre>            if (Arrays.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Arrays.html#linenum5848">compare</a>(<a class="variable" href="#linenum1333">ctPlusTag</a>, <a class="variable" href="#linenum1354">ctLen</a>, <a class="variable" href="#linenum1334">ctPlusTagLen</a>,</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1367" class="linenum-cell" data-linenum="1367" href="#linenum1367"></a></td>

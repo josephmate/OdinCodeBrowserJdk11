@@ -844,7 +844,7 @@
 </tr>
 <tr>
 <td><a id="linenum210" class="linenum-cell" data-linenum="210" href="#linenum210"></a></td>
-<td><pre>            GetPropertyAction.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/action/GetPropertyAction.html#linenum125">privilegedGetProperty</a>(<span class='string'>&quot;user.dir&quot;</span>));</pre></td>
+<td><pre>            GetPropertyAction.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/action/GetPropertyAction.html#linenum103">privilegedGetProperty</a>(<span class='string'>&quot;user.dir&quot;</span>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum211" class="linenum-cell" data-linenum="211" href="#linenum211"></a></td>
@@ -1516,7 +1516,7 @@
 </tr>
 <tr>
 <td><a id="linenum378" class="linenum-cell" data-linenum="378" href="#linenum378"></a></td>
-<td><pre>            <a class="variable" href="#linenum164">cpath</a> = AccessController.<a class="type" href="/OdinCodeBrowserJdk11/java/security/AccessController.html#linenum714">doPrivileged</a>(new <a class="type" href="/OdinCodeBrowserJdk11/java/security/PrivilegedAction.html#linenum43">PrivilegedAction</a>&lt;&gt;() {</pre></td>
+<td><pre>            <a class="variable" href="#linenum164">cpath</a> = AccessController.<a class="type" href="/OdinCodeBrowserJdk11/java/security/AccessController.html#linenum298">doPrivileged</a>(new <a class="type" href="/OdinCodeBrowserJdk11/java/security/PrivilegedAction.html#linenum43">PrivilegedAction</a>&lt;&gt;() {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum379" class="linenum-cell" data-linenum="379" href="#linenum379"></a></td>
@@ -2924,7 +2924,7 @@
 </tr>
 <tr>
 <td><a id="linenum730" class="linenum-cell" data-linenum="730" href="#linenum730"></a></td>
-<td><pre>        int n = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum1570">min</a>(<a class="variable" href="#linenum727">c1</a>, <a class="variable" href="#linenum728">c2</a>);</pre></td>
+<td><pre>        int n = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum1511">min</a>(<a class="variable" href="#linenum727">c1</a>, <a class="variable" href="#linenum728">c2</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum731" class="linenum-cell" data-linenum="731" href="#linenum731"></a></td>
@@ -4208,7 +4208,7 @@
 </tr>
 <tr>
 <td><a id="linenum1051" class="linenum-cell" data-linenum="1051" href="#linenum1051"></a></td>
-<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/io/FilePermission.html#linenum965">getActions</a>();</pre></td>
+<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/io/FilePermission.html#linenum996">getActions</a>();</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1052" class="linenum-cell" data-linenum="1052" href="#linenum1052"></a></td>
@@ -4752,7 +4752,7 @@
 </tr>
 <tr>
 <td><a id="linenum1187" class="linenum-cell" data-linenum="1187" href="#linenum1187"></a></td>
-<td><pre>        int desired = <a class="variable" href="#linenum1185">fperm</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/io/FilePermission.html#linenum826">getMask</a>();</pre></td>
+<td><pre>        int desired = <a class="variable" href="#linenum1185">fperm</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/io/FilePermission.html#linenum954">getMask</a>();</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1188" class="linenum-cell" data-linenum="1188" href="#linenum1188"></a></td>
@@ -4776,11 +4776,11 @@
 </tr>
 <tr>
 <td><a id="linenum1193" class="linenum-cell" data-linenum="1193" href="#linenum1193"></a></td>
-<td><pre>            if (((<a class="variable" href="#linenum1189">needed</a> &amp; <a class="variable" href="#linenum1192">fp</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/io/FilePermission.html#linenum826">getMask</a>()) != 0) &amp;&amp; <a class="variable" href="#linenum1192">fp</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/io/FilePermission.html#linenum576">impliesIgnoreMask</a>(<a class="variable" href="#linenum1185">fperm</a>)) {</pre></td>
+<td><pre>            if (((<a class="variable" href="#linenum1189">needed</a> &amp; <a class="variable" href="#linenum1192">fp</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/io/FilePermission.html#linenum954">getMask</a>()) != 0) &amp;&amp; <a class="variable" href="#linenum1192">fp</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/io/FilePermission.html#linenum576">impliesIgnoreMask</a>(<a class="variable" href="#linenum1185">fperm</a>)) {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1194" class="linenum-cell" data-linenum="1194" href="#linenum1194"></a></td>
-<td><pre>                <a class="variable" href="#linenum1188">effective</a> |= <a class="variable" href="#linenum1192">fp</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/io/FilePermission.html#linenum826">getMask</a>();</pre></td>
+<td><pre>                <a class="variable" href="#linenum1188">effective</a> |= <a class="variable" href="#linenum1192">fp</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/io/FilePermission.html#linenum954">getMask</a>();</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1195" class="linenum-cell" data-linenum="1195" href="#linenum1195"></a></td>

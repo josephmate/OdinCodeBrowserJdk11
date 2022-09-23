@@ -684,7 +684,7 @@
 </tr>
 <tr>
 <td><a id="linenum170" class="linenum-cell" data-linenum="170" href="#linenum170"></a></td>
-<td><pre>            <a class="variable" href="#linenum124">sig</a> = Signature.<a class="type" href="/OdinCodeBrowserJdk11/java/security/Signature.html#linenum260">getInstance</a>(sigAlg);</pre></td>
+<td><pre>            <a class="variable" href="#linenum124">sig</a> = Signature.<a class="type" href="/OdinCodeBrowserJdk11/java/security/Signature.html#linenum226">getInstance</a>(sigAlg);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum171" class="linenum-cell" data-linenum="171" href="#linenum171"></a></td>
@@ -692,7 +692,7 @@
 </tr>
 <tr>
 <td><a id="linenum172" class="linenum-cell" data-linenum="172" href="#linenum172"></a></td>
-<td><pre>            <a class="variable" href="#linenum124">sig</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/security/Signature.html#linenum503">initVerify</a>(subjectPublicKeyInfo);</pre></td>
+<td><pre>            <a class="variable" href="#linenum124">sig</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/security/Signature.html#linenum474">initVerify</a>(subjectPublicKeyInfo);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum173" class="linenum-cell" data-linenum="173" href="#linenum173"></a></td>
@@ -716,11 +716,11 @@
 </tr>
 <tr>
 <td><a id="linenum178" class="linenum-cell" data-linenum="178" href="#linenum178"></a></td>
-<td><pre>            <a class="variable" href="#linenum124">sig</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/security/Signature.html#linenum808">update</a>(data);</pre></td>
+<td><pre>            <a class="variable" href="#linenum124">sig</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/security/Signature.html#linenum738">update</a>(data);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum179" class="linenum-cell" data-linenum="179" href="#linenum179"></a></td>
-<td><pre>            if (!<a class="variable" href="#linenum124">sig</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/security/Signature.html#linenum709">verify</a>(<a class="variable" href="#linenum123">sigData</a>)) {</pre></td>
+<td><pre>            if (!<a class="variable" href="#linenum124">sig</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/security/Signature.html#linenum673">verify</a>(<a class="variable" href="#linenum123">sigData</a>)) {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum180" class="linenum-cell" data-linenum="180" href="#linenum180"></a></td>
@@ -872,7 +872,7 @@
 </tr>
 <tr>
 <td><a id="linenum217" class="linenum-cell" data-linenum="217" href="#linenum217"></a></td>
-<td><pre>        <a class="variable" href="#linenum204">scratch</a>.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/util/DerOutputStream.html#linenum182">putInteger</a>(BigInteger.ZERO);            <span class='comment'>// PKCS #10 v1.0</span></pre></td>
+<td><pre>        <a class="variable" href="#linenum204">scratch</a>.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/util/DerOutputStream.html#linenum163">putInteger</a>(BigInteger.ZERO);            <span class='comment'>// PKCS #10 v1.0</span></pre></td>
 </tr>
 <tr>
 <td><a id="linenum218" class="linenum-cell" data-linenum="218" href="#linenum218"></a></td>
@@ -924,7 +924,7 @@
 </tr>
 <tr>
 <td><a id="linenum230" class="linenum-cell" data-linenum="230" href="#linenum230"></a></td>
-<td><pre>        <a class="variable" href="#linenum202">signature</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/security/Signature.html#linenum808">update</a>(<a class="variable" href="#linenum205">certificateRequestInfo</a>, 0,</pre></td>
+<td><pre>        <a class="variable" href="#linenum202">signature</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/security/Signature.html#linenum775">update</a>(<a class="variable" href="#linenum205">certificateRequestInfo</a>, 0,</pre></td>
 </tr>
 <tr>
 <td><a id="linenum231" class="linenum-cell" data-linenum="231" href="#linenum231"></a></td>
@@ -932,7 +932,7 @@
 </tr>
 <tr>
 <td><a id="linenum232" class="linenum-cell" data-linenum="232" href="#linenum232"></a></td>
-<td><pre>        <a class="variable" href="#linenum206">sig</a> = <a class="variable" href="#linenum202">signature</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/security/Signature.html#linenum636">sign</a>();</pre></td>
+<td><pre>        <a class="variable" href="#linenum206">sig</a> = <a class="variable" href="#linenum202">signature</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/security/Signature.html#linenum596">sign</a>();</pre></td>
 </tr>
 <tr>
 <td><a id="linenum233" class="linenum-cell" data-linenum="233" href="#linenum233"></a></td>
@@ -964,7 +964,7 @@
 </tr>
 <tr>
 <td><a id="linenum240" class="linenum-cell" data-linenum="240" href="#linenum240"></a></td>
-<td><pre>            <a class="variable" href="#linenum238">algId</a> = AlgorithmId.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/x509/AlgorithmId.html#linenum422">get</a>(<a class="variable" href="#linenum202">signature</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/security/Signature.html#linenum824">getAlgorithm</a>());</pre></td>
+<td><pre>            <a class="variable" href="#linenum238">algId</a> = AlgorithmId.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/x509/AlgorithmId.html#linenum398">get</a>(<a class="variable" href="#linenum202">signature</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/security/Signature.html#linenum824">getAlgorithm</a>());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum241" class="linenum-cell" data-linenum="241" href="#linenum241"></a></td>
@@ -1252,15 +1252,15 @@
 </tr>
 <tr>
 <td><a id="linenum312" class="linenum-cell" data-linenum="312" href="#linenum312"></a></td>
-<td><pre>        <a class="variable" href="#linenum305">out</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/io/PrintStream.html#linenum896">println</a>(<span class='string'>&quot;-----BEGIN NEW CERTIFICATE REQUEST-----&quot;</span>);</pre></td>
+<td><pre>        <a class="variable" href="#linenum305">out</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/io/PrintStream.html#linenum782">println</a>(<span class='string'>&quot;-----BEGIN NEW CERTIFICATE REQUEST-----&quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum313" class="linenum-cell" data-linenum="313" href="#linenum313"></a></td>
-<td><pre>        <a class="variable" href="#linenum305">out</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/io/PrintStream.html#linenum896">println</a>(Base64.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Base64.html#linenum131">getMimeEncoder</a>(64, <a class="variable" href="#linenum311">CRLF</a>).encodeToString(encoded));</pre></td>
+<td><pre>        <a class="variable" href="#linenum305">out</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/io/PrintStream.html#linenum782">println</a>(Base64.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Base64.html#linenum131">getMimeEncoder</a>(64, <a class="variable" href="#linenum311">CRLF</a>).encodeToString(encoded));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum314" class="linenum-cell" data-linenum="314" href="#linenum314"></a></td>
-<td><pre>        <a class="variable" href="#linenum305">out</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/io/PrintStream.html#linenum896">println</a>(<span class='string'>&quot;-----END NEW CERTIFICATE REQUEST-----&quot;</span>);</pre></td>
+<td><pre>        <a class="variable" href="#linenum305">out</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/io/PrintStream.html#linenum782">println</a>(<span class='string'>&quot;-----END NEW CERTIFICATE REQUEST-----&quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum315" class="linenum-cell" data-linenum="315" href="#linenum315"></a></td>

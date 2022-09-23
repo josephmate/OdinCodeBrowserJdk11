@@ -1272,7 +1272,7 @@
 </tr>
 <tr>
 <td><a id="linenum317" class="linenum-cell" data-linenum="317" href="#linenum317"></a></td>
-<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/Chronology.html#linenum452">date</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/Chronology.html#linenum576">prolepticYear</a>(<a class="variable" href="#linenum316">era</a>, <a class="variable" href="#linenum316">yearOfEra</a>), <a class="variable" href="#linenum316">month</a>, <a class="variable" href="#linenum316">dayOfMonth</a>);</pre></td>
+<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/Chronology.html#linenum330">date</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/Chronology.html#linenum576">prolepticYear</a>(<a class="variable" href="#linenum316">era</a>, <a class="variable" href="#linenum316">yearOfEra</a>), <a class="variable" href="#linenum316">month</a>, <a class="variable" href="#linenum316">dayOfMonth</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum318" class="linenum-cell" data-linenum="318" href="#linenum318"></a></td>
@@ -1568,7 +1568,7 @@
 </tr>
 <tr>
 <td><a id="linenum391" class="linenum-cell" data-linenum="391" href="#linenum391"></a></td>
-<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/Chronology.html#linenum428">dateNow</a>(Clock.<a class="type" href="/OdinCodeBrowserJdk11/java/time/Clock.html#linenum183">systemDefaultZone</a>());</pre></td>
+<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/Chronology.html#linenum410">dateNow</a>(Clock.<a class="type" href="/OdinCodeBrowserJdk11/java/time/Clock.html#linenum183">systemDefaultZone</a>());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum392" class="linenum-cell" data-linenum="392" href="#linenum392"></a></td>
@@ -1648,7 +1648,7 @@
 </tr>
 <tr>
 <td><a id="linenum411" class="linenum-cell" data-linenum="411" href="#linenum411"></a></td>
-<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/Chronology.html#linenum428">dateNow</a>(Clock.<a class="type" href="/OdinCodeBrowserJdk11/java/time/Clock.html#linenum202">system</a>(<a class="variable" href="#linenum410">zone</a>));</pre></td>
+<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/Chronology.html#linenum410">dateNow</a>(Clock.<a class="type" href="/OdinCodeBrowserJdk11/java/time/Clock.html#linenum202">system</a>(<a class="variable" href="#linenum410">zone</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum412" class="linenum-cell" data-linenum="412" href="#linenum412"></a></td>
@@ -2984,7 +2984,7 @@
 </tr>
 <tr>
 <td><a id="linenum745" class="linenum-cell" data-linenum="745" href="#linenum745"></a></td>
-<td><pre>        long daysInSec = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum935">multiplyExact</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/Chronology.html#linenum452">date</a>(<a class="variable" href="#linenum739">prolepticYear</a>, <a class="variable" href="#linenum739">month</a>, <a class="variable" href="#linenum739">dayOfMonth</a>).toEpochDay(), 86400);</pre></td>
+<td><pre>        long daysInSec = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum902">multiplyExact</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/time/chrono/Chronology.html#linenum330">date</a>(<a class="variable" href="#linenum739">prolepticYear</a>, <a class="variable" href="#linenum739">month</a>, <a class="variable" href="#linenum739">dayOfMonth</a>).toEpochDay(), 86400);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum746" class="linenum-cell" data-linenum="746" href="#linenum746"></a></td>
@@ -2992,7 +2992,7 @@
 </tr>
 <tr>
 <td><a id="linenum747" class="linenum-cell" data-linenum="747" href="#linenum747"></a></td>
-<td><pre>        return Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum840">addExact</a>(<a class="variable" href="#linenum745">daysInSec</a>, <a class="variable" href="#linenum746">timeinSec</a> - <a class="variable" href="#linenum740">zoneOffset</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/time/ZoneOffset.html#linenum473">getTotalSeconds</a>());</pre></td>
+<td><pre>        return Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum820">addExact</a>(<a class="variable" href="#linenum745">daysInSec</a>, <a class="variable" href="#linenum746">timeinSec</a> - <a class="variable" href="#linenum740">zoneOffset</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/time/ZoneOffset.html#linenum473">getTotalSeconds</a>());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum748" class="linenum-cell" data-linenum="748" href="#linenum748"></a></td>

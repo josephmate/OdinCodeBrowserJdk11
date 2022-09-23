@@ -368,7 +368,7 @@
 </tr>
 <tr>
 <td><a id="linenum91" class="linenum-cell" data-linenum="91" href="#linenum91"></a></td>
-<td><pre>            return <span class='string'>&quot;{&quot;</span> + Utilities.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/ssl/Utilities.html#linenum198">toHexString</a>(<a class="variable" href="#linenum75">identity</a>) + <span class='string'>&quot;,&quot;</span> +</pre></td>
+<td><pre>            return <span class='string'>&quot;{&quot;</span> + Utilities.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/ssl/Utilities.html#linenum167">toHexString</a>(<a class="variable" href="#linenum75">identity</a>) + <span class='string'>&quot;,&quot;</span> +</pre></td>
 </tr>
 <tr>
 <td><a id="linenum92" class="linenum-cell" data-linenum="92" href="#linenum92"></a></td>
@@ -872,11 +872,11 @@
 </tr>
 <tr>
 <td><a id="linenum217" class="linenum-cell" data-linenum="217" href="#linenum217"></a></td>
-<td><pre>                Utilities.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/ssl/Utilities.html#linenum147">indent</a>(<a class="type" href="/OdinCodeBrowserJdk11/sun/security/ssl/PreSharedKeyExtension.html#linenum224">identitiesString</a>()),</pre></td>
+<td><pre>                Utilities.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/ssl/Utilities.html#linenum143">indent</a>(<a class="type" href="/OdinCodeBrowserJdk11/sun/security/ssl/PreSharedKeyExtension.html#linenum224">identitiesString</a>()),</pre></td>
 </tr>
 <tr>
 <td><a id="linenum218" class="linenum-cell" data-linenum="218" href="#linenum218"></a></td>
-<td><pre>                Utilities.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/ssl/Utilities.html#linenum147">indent</a>(<a class="type" href="/OdinCodeBrowserJdk11/sun/security/ssl/PreSharedKeyExtension.html#linenum233">bindersString</a>())</pre></td>
+<td><pre>                Utilities.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/ssl/Utilities.html#linenum143">indent</a>(<a class="type" href="/OdinCodeBrowserJdk11/sun/security/ssl/PreSharedKeyExtension.html#linenum233">bindersString</a>())</pre></td>
 </tr>
 <tr>
 <td><a id="linenum219" class="linenum-cell" data-linenum="219" href="#linenum219"></a></td>
@@ -912,7 +912,7 @@
 </tr>
 <tr>
 <td><a id="linenum227" class="linenum-cell" data-linenum="227" href="#linenum227"></a></td>
-<td><pre>                <a class="variable" href="#linenum225">result</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/StringBuilder.html#linenum264">append</a>(<a class="variable" href="#linenum196">curId</a>.toString() + <span class='string'>&quot;\n&quot;</span>);</pre></td>
+<td><pre>                <a class="variable" href="#linenum225">result</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/StringBuilder.html#linenum166">append</a>(<a class="variable" href="#linenum196">curId</a>.toString() + <span class='string'>&quot;\n&quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum228" class="linenum-cell" data-linenum="228" href="#linenum228"></a></td>
@@ -948,7 +948,7 @@
 </tr>
 <tr>
 <td><a id="linenum236" class="linenum-cell" data-linenum="236" href="#linenum236"></a></td>
-<td><pre>                <a class="variable" href="#linenum234">result</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/StringBuilder.html#linenum264">append</a>(<span class='string'>&quot;{&quot;</span> + Utilities.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/ssl/Utilities.html#linenum198">toHexString</a>(<a class="variable" href="#linenum200">curBinder</a>) + <span class='string'>&quot;}\n&quot;</span>);</pre></td>
+<td><pre>                <a class="variable" href="#linenum234">result</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/StringBuilder.html#linenum166">append</a>(<span class='string'>&quot;{&quot;</span> + Utilities.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/ssl/Utilities.html#linenum167">toHexString</a>(<a class="variable" href="#linenum200">curBinder</a>) + <span class='string'>&quot;}\n&quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum237" class="linenum-cell" data-linenum="237" href="#linenum237"></a></td>
@@ -1496,7 +1496,7 @@
 </tr>
 <tr>
 <td><a id="linenum373" class="linenum-cell" data-linenum="373" href="#linenum373"></a></td>
-<td><pre>                    <a class="type" href="/OdinCodeBrowserJdk11/sun/security/ssl/SSLSessionImpl.html#linenum69">SSLSessionImpl</a> s = <a class="variable" href="#linenum369">sessionCache</a>.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/ssl/SSLSessionContextImpl.html#linenum144">get</a>(requestedId.identity);</pre></td>
+<td><pre>                    <a class="type" href="/OdinCodeBrowserJdk11/sun/security/ssl/SSLSessionImpl.html#linenum69">SSLSessionImpl</a> s = <a class="variable" href="#linenum369">sessionCache</a>.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/ssl/SSLSessionContextImpl.html#linenum139">get</a>(requestedId.identity);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum374" class="linenum-cell" data-linenum="374" href="#linenum374"></a></td>
@@ -1792,7 +1792,7 @@
 </tr>
 <tr>
 <td><a id="linenum447" class="linenum-cell" data-linenum="447" href="#linenum447"></a></td>
-<td><pre>        if (<a class="variable" href="#linenum405">result</a> &amp;&amp; (!<a class="variable" href="#linenum403">shc</a>.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/ssl/HandshakeContext.html#linenum493">isNegotiable</a>(<a class="variable" href="#linenum403">s</a>.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/ssl/SSLSessionImpl.html#linenum418">getSuite</a>()) ||</pre></td>
+<td><pre>        if (<a class="variable" href="#linenum405">result</a> &amp;&amp; (!<a class="variable" href="#linenum403">shc</a>.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/ssl/HandshakeContext.html#linenum463">isNegotiable</a>(<a class="variable" href="#linenum403">s</a>.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/ssl/SSLSessionImpl.html#linenum418">getSuite</a>()) ||</pre></td>
 </tr>
 <tr>
 <td><a id="linenum448" class="linenum-cell" data-linenum="448" href="#linenum448"></a></td>
@@ -2068,7 +2068,7 @@
 </tr>
 <tr>
 <td><a id="linenum516" class="linenum-cell" data-linenum="516" href="#linenum516"></a></td>
-<td><pre>        if (!Arrays.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Arrays.html#linenum3324">equals</a>(<a class="variable" href="#linenum505">binder</a>, <a class="variable" href="#linenum514">computedBinder</a>)) {</pre></td>
+<td><pre>        if (!Arrays.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Arrays.html#linenum2573">equals</a>(<a class="variable" href="#linenum505">binder</a>, <a class="variable" href="#linenum514">computedBinder</a>)) {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum517" class="linenum-cell" data-linenum="517" href="#linenum517"></a></td>
@@ -2764,7 +2764,7 @@
 </tr>
 <tr>
 <td><a id="linenum690" class="linenum-cell" data-linenum="690" href="#linenum690"></a></td>
-<td><pre>        byte[] digest = <a class="variable" href="#linenum685">pskBinderHash</a>.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/ssl/HandshakeHash.html#linenum204">digest</a>();</pre></td>
+<td><pre>        byte[] digest = <a class="variable" href="#linenum685">pskBinderHash</a>.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/ssl/HandshakeHash.html#linenum172">digest</a>();</pre></td>
 </tr>
 <tr>
 <td><a id="linenum691" class="linenum-cell" data-linenum="691" href="#linenum691"></a></td>
@@ -2840,7 +2840,7 @@
 </tr>
 <tr>
 <td><a id="linenum709" class="linenum-cell" data-linenum="709" href="#linenum709"></a></td>
-<td><pre>        byte[] digest = <a class="variable" href="#linenum696">hash</a>.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/ssl/HandshakeHash.html#linenum204">digest</a>();</pre></td>
+<td><pre>        byte[] digest = <a class="variable" href="#linenum696">hash</a>.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/ssl/HandshakeHash.html#linenum172">digest</a>();</pre></td>
 </tr>
 <tr>
 <td><a id="linenum710" class="linenum-cell" data-linenum="710" href="#linenum710"></a></td>
@@ -2996,7 +2996,7 @@
 </tr>
 <tr>
 <td><a id="linenum748" class="linenum-cell" data-linenum="748" href="#linenum748"></a></td>
-<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/security/MessageDigest.html#linenum105">MessageDigest</a> md = MessageDigest.<a class="type" href="/OdinCodeBrowserJdk11/java/security/MessageDigest.html#linenum288">getInstance</a>(<a class="variable" href="#linenum742">hashAlg</a>.toString());;</pre></td>
+<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/security/MessageDigest.html#linenum105">MessageDigest</a> md = MessageDigest.<a class="type" href="/OdinCodeBrowserJdk11/java/security/MessageDigest.html#linenum173">getInstance</a>(<a class="variable" href="#linenum742">hashAlg</a>.toString());;</pre></td>
 </tr>
 <tr>
 <td><a id="linenum749" class="linenum-cell" data-linenum="749" href="#linenum749"></a></td>

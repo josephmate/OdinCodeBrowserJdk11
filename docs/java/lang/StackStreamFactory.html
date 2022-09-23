@@ -344,7 +344,7 @@
 </tr>
 <tr>
 <td><a id="linenum85" class="linenum-cell" data-linenum="85" href="#linenum85"></a></td>
-<td><pre>            <span class='string'>&quot;true&quot;</span>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum1002">equals</a>(GetPropertyAction.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/action/GetPropertyAction.html#linenum125">privilegedGetProperty</a>(<span class='string'>&quot;stackwalk.debug&quot;</span>));</pre></td>
+<td><pre>            <span class='string'>&quot;true&quot;</span>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum1002">equals</a>(GetPropertyAction.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/action/GetPropertyAction.html#linenum103">privilegedGetProperty</a>(<span class='string'>&quot;stackwalk.debug&quot;</span>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum86" class="linenum-cell" data-linenum="86" href="#linenum86"></a></td>
@@ -1256,7 +1256,7 @@
 </tr>
 <tr>
 <td><a id="linenum313" class="linenum-cell" data-linenum="313" href="#linenum313"></a></td>
-<td><pre>            int nextBatchSize = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum1570">min</a>(<a class="variable" href="#linenum134">maxDepth</a> - <a class="variable" href="#linenum126">depth</a>, <a class="type" href="/OdinCodeBrowserJdk11/java/lang/StackStreamFactory.html#linenum187">getNextBatchSize</a>());</pre></td>
+<td><pre>            int nextBatchSize = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum1511">min</a>(<a class="variable" href="#linenum134">maxDepth</a> - <a class="variable" href="#linenum126">depth</a>, <a class="type" href="/OdinCodeBrowserJdk11/java/lang/StackStreamFactory.html#linenum187">getNextBatchSize</a>());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum314" class="linenum-cell" data-linenum="314" href="#linenum314"></a></td>
@@ -1292,7 +1292,7 @@
 </tr>
 <tr>
 <td><a id="linenum322" class="linenum-cell" data-linenum="322" href="#linenum322"></a></td>
-<td><pre>            return <a class="type" href="/OdinCodeBrowserJdk11/java/lang/StackStreamFactory.html#linenum430">fetchStackFrames</a>(<a class="variable" href="#linenum313">nextBatchSize</a>);</pre></td>
+<td><pre>            return <a class="type" href="/OdinCodeBrowserJdk11/java/lang/StackStreamFactory.html#linenum382">fetchStackFrames</a>(<a class="variable" href="#linenum313">nextBatchSize</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum323" class="linenum-cell" data-linenum="323" href="#linenum323"></a></td>
@@ -2132,7 +2132,7 @@
 </tr>
 <tr>
 <td><a id="linenum532" class="linenum-cell" data-linenum="532" href="#linenum532"></a></td>
-<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/util/stream/Stream.html#linenum167">Stream</a>&lt;<a class="type" href="/OdinCodeBrowserJdk11/java/lang/StackWalker.html#linenum101">StackFrame</a>&gt; stream = StreamSupport.<a class="type" href="/OdinCodeBrowserJdk11/java/util/stream/StreamSupport.html#linenum107">stream</a>(this, false);</pre></td>
+<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/util/stream/Stream.html#linenum167">Stream</a>&lt;<a class="type" href="/OdinCodeBrowserJdk11/java/lang/StackWalker.html#linenum101">StackFrame</a>&gt; stream = StreamSupport.<a class="type" href="/OdinCodeBrowserJdk11/java/util/stream/StreamSupport.html#linenum67">stream</a>(this, false);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum533" class="linenum-cell" data-linenum="533" href="#linenum533"></a></td>
@@ -2200,11 +2200,11 @@
 </tr>
 <tr>
 <td><a id="linenum549" class="linenum-cell" data-linenum="549" href="#linenum549"></a></td>
-<td><pre>                int initialBatchSize = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum1489">max</a>(<a class="variable" href="#linenum508">walker</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/StackWalker.html#linenum611">estimateDepth</a>(), <a class="variable" href="#linenum68">SMALL_BATCH</a>);</pre></td>
+<td><pre>                int initialBatchSize = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum1426">max</a>(<a class="variable" href="#linenum508">walker</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/StackWalker.html#linenum611">estimateDepth</a>(), <a class="variable" href="#linenum68">SMALL_BATCH</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum550" class="linenum-cell" data-linenum="550" href="#linenum550"></a></td>
-<td><pre>                return Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum1570">min</a>(<a class="variable" href="#linenum549">initialBatchSize</a>, <a class="variable" href="#linenum70">LARGE_BATCH_SIZE</a>);</pre></td>
+<td><pre>                return Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum1511">min</a>(<a class="variable" href="#linenum549">initialBatchSize</a>, <a class="variable" href="#linenum70">LARGE_BATCH_SIZE</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum551" class="linenum-cell" data-linenum="551" href="#linenum551"></a></td>
@@ -2224,7 +2224,7 @@
 </tr>
 <tr>
 <td><a id="linenum555" class="linenum-cell" data-linenum="555" href="#linenum555"></a></td>
-<td><pre>                    return Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum1570">min</a>(<a class="variable" href="#linenum545">lastBatchFrameCount</a>*2, <a class="variable" href="#linenum69">BATCH_SIZE</a>);</pre></td>
+<td><pre>                    return Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum1511">min</a>(<a class="variable" href="#linenum545">lastBatchFrameCount</a>*2, <a class="variable" href="#linenum69">BATCH_SIZE</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum556" class="linenum-cell" data-linenum="556" href="#linenum556"></a></td>
@@ -3600,7 +3600,7 @@
 </tr>
 <tr>
 <td><a id="linenum899" class="linenum-cell" data-linenum="899" href="#linenum899"></a></td>
-<td><pre>                        Objects.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Objects.html#linenum176">toString</a>(<a class="variable" href="#linenum894">c</a>), <a class="variable" href="#linenum897">index</a>, <a class="variable" href="#linenum792">fence</a>);</pre></td>
+<td><pre>                        Objects.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Objects.html#linenum159">toString</a>(<a class="variable" href="#linenum894">c</a>), <a class="variable" href="#linenum897">index</a>, <a class="variable" href="#linenum792">fence</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum900" class="linenum-cell" data-linenum="900" href="#linenum900"></a></td>

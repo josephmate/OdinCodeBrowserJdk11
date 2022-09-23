@@ -280,7 +280,7 @@
 </tr>
 <tr>
 <td><a id="linenum69" class="linenum-cell" data-linenum="69" href="#linenum69"></a></td>
-<td><pre>    private static final <a class="type" href="/OdinCodeBrowserJdk11/sun/security/util/Debug.html#linenum40">Debug</a> debug = Debug.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/util/Debug.html#linenum143">getInstance</a>(<span class='string'>&quot;certpath&quot;</span>);</pre></td>
+<td><pre>    private static final <a class="type" href="/OdinCodeBrowserJdk11/sun/security/util/Debug.html#linenum40">Debug</a> debug = Debug.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/util/Debug.html#linenum134">getInstance</a>(<span class='string'>&quot;certpath&quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum70" class="linenum-cell" data-linenum="70" href="#linenum70"></a></td>
@@ -936,7 +936,7 @@
 </tr>
 <tr>
 <td><a id="linenum233" class="linenum-cell" data-linenum="233" href="#linenum233"></a></td>
-<td><pre>                <a class="variable" href="#linenum69">debug</a>.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/util/Debug.html#linenum210">println</a>(<span class='string'>&quot;connecting to OCSP service at: &quot;</span> + <a class="variable" href="#linenum231">url</a>);</pre></td>
+<td><pre>                <a class="variable" href="#linenum69">debug</a>.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/util/Debug.html#linenum182">println</a>(<span class='string'>&quot;connecting to OCSP service at: &quot;</span> + <a class="variable" href="#linenum231">url</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum234" class="linenum-cell" data-linenum="234" href="#linenum234"></a></td>
@@ -944,7 +944,7 @@
 </tr>
 <tr>
 <td><a id="linenum235" class="linenum-cell" data-linenum="235" href="#linenum235"></a></td>
-<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/net/HttpURLConnection.html#linenum69">HttpURLConnection</a> con = (<a class="type" href="/OdinCodeBrowserJdk11/java/net/HttpURLConnection.html#linenum69">HttpURLConnection</a>)<a class="variable" href="#linenum231">url</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/net/URL.html#linenum1083">openConnection</a>();</pre></td>
+<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/net/HttpURLConnection.html#linenum69">HttpURLConnection</a> con = (<a class="type" href="/OdinCodeBrowserJdk11/java/net/HttpURLConnection.html#linenum69">HttpURLConnection</a>)<a class="variable" href="#linenum231">url</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/net/URL.html#linenum1050">openConnection</a>();</pre></td>
 </tr>
 <tr>
 <td><a id="linenum236" class="linenum-cell" data-linenum="236" href="#linenum236"></a></td>
@@ -980,7 +980,7 @@
 </tr>
 <tr>
 <td><a id="linenum244" class="linenum-cell" data-linenum="244" href="#linenum244"></a></td>
-<td><pre>                (<span class='string'>&quot;Content-length&quot;</span>, String.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum3099">valueOf</a>(<a class="variable" href="#linenum224">bytes</a>.length));</pre></td>
+<td><pre>                (<span class='string'>&quot;Content-length&quot;</span>, String.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum2950">valueOf</a>(<a class="variable" href="#linenum224">bytes</a>.length));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum245" class="linenum-cell" data-linenum="245" href="#linenum245"></a></td>
@@ -988,7 +988,7 @@
 </tr>
 <tr>
 <td><a id="linenum246" class="linenum-cell" data-linenum="246" href="#linenum246"></a></td>
-<td><pre>            <a class="variable" href="#linenum227">out</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/io/OutputStream.html#linenum153">write</a>(<a class="variable" href="#linenum224">bytes</a>);</pre></td>
+<td><pre>            <a class="variable" href="#linenum227">out</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/io/OutputStream.html#linenum109">write</a>(<a class="variable" href="#linenum224">bytes</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum247" class="linenum-cell" data-linenum="247" href="#linenum247"></a></td>
@@ -1008,7 +1008,7 @@
 </tr>
 <tr>
 <td><a id="linenum251" class="linenum-cell" data-linenum="251" href="#linenum251"></a></td>
-<td><pre>                <a class="variable" href="#linenum69">debug</a>.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/util/Debug.html#linenum210">println</a>(<span class='string'>&quot;Received HTTP error: &quot;</span> + <a class="variable" href="#linenum235">con</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/net/HttpURLConnection.html#linenum512">getResponseCode</a>()</pre></td>
+<td><pre>                <a class="variable" href="#linenum69">debug</a>.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/util/Debug.html#linenum182">println</a>(<span class='string'>&quot;Received HTTP error: &quot;</span> + <a class="variable" href="#linenum235">con</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/net/HttpURLConnection.html#linenum512">getResponseCode</a>()</pre></td>
 </tr>
 <tr>
 <td><a id="linenum252" class="linenum-cell" data-linenum="252" href="#linenum252"></a></td>
@@ -1076,7 +1076,7 @@
 </tr>
 <tr>
 <td><a id="linenum268" class="linenum-cell" data-linenum="268" href="#linenum268"></a></td>
-<td><pre>                    <a class="variable" href="#linenum228">response</a> = Arrays.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Arrays.html#linenum3912">copyOf</a>(<a class="variable" href="#linenum228">response</a>, <a class="variable" href="#linenum260">total</a> * 2);</pre></td>
+<td><pre>                    <a class="variable" href="#linenum228">response</a> = Arrays.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Arrays.html#linenum3687">copyOf</a>(<a class="variable" href="#linenum228">response</a>, <a class="variable" href="#linenum260">total</a> * 2);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum269" class="linenum-cell" data-linenum="269" href="#linenum269"></a></td>
@@ -1088,7 +1088,7 @@
 </tr>
 <tr>
 <td><a id="linenum271" class="linenum-cell" data-linenum="271" href="#linenum271"></a></td>
-<td><pre>            <a class="variable" href="#linenum228">response</a> = Arrays.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Arrays.html#linenum3912">copyOf</a>(<a class="variable" href="#linenum228">response</a>, <a class="variable" href="#linenum260">total</a>);</pre></td>
+<td><pre>            <a class="variable" href="#linenum228">response</a> = Arrays.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Arrays.html#linenum3687">copyOf</a>(<a class="variable" href="#linenum228">response</a>, <a class="variable" href="#linenum260">total</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum272" class="linenum-cell" data-linenum="272" href="#linenum272"></a></td>
@@ -1212,7 +1212,7 @@
 </tr>
 <tr>
 <td><a id="linenum302" class="linenum-cell" data-linenum="302" href="#linenum302"></a></td>
-<td><pre>            return <a class="type" href="/OdinCodeBrowserJdk11/sun/security/provider/certpath/OCSP.html#linenum309">getResponderURI</a>(X509CertImpl.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/x509/X509CertImpl.html#linenum1938">toImpl</a>(<a class="variable" href="#linenum300">cert</a>));</pre></td>
+<td><pre>            return <a class="type" href="/OdinCodeBrowserJdk11/sun/security/provider/certpath/OCSP.html#linenum300">getResponderURI</a>(X509CertImpl.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/x509/X509CertImpl.html#linenum1938">toImpl</a>(<a class="variable" href="#linenum300">cert</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum303" class="linenum-cell" data-linenum="303" href="#linenum303"></a></td>

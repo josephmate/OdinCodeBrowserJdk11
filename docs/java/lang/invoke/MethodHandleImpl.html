@@ -652,15 +652,15 @@
 </tr>
 <tr>
 <td><a id="linenum162" class="linenum-cell" data-linenum="162" href="#linenum162"></a></td>
-<td><pre>            assert(InvokerBytecodeGenerator.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/InvokerBytecodeGenerator.html#linenum940">isStaticallyInvocable</a>(ArrayAccessor.OBJECT_ARRAY_GETTER.internalMemberName()));</pre></td>
+<td><pre>            assert(InvokerBytecodeGenerator.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/InvokerBytecodeGenerator.html#linenum927">isStaticallyInvocable</a>(ArrayAccessor.OBJECT_ARRAY_GETTER.internalMemberName()));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum163" class="linenum-cell" data-linenum="163" href="#linenum163"></a></td>
-<td><pre>            assert(InvokerBytecodeGenerator.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/InvokerBytecodeGenerator.html#linenum940">isStaticallyInvocable</a>(ArrayAccessor.OBJECT_ARRAY_SETTER.internalMemberName()));</pre></td>
+<td><pre>            assert(InvokerBytecodeGenerator.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/InvokerBytecodeGenerator.html#linenum927">isStaticallyInvocable</a>(ArrayAccessor.OBJECT_ARRAY_SETTER.internalMemberName()));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum164" class="linenum-cell" data-linenum="164" href="#linenum164"></a></td>
-<td><pre>            assert(InvokerBytecodeGenerator.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/InvokerBytecodeGenerator.html#linenum940">isStaticallyInvocable</a>(ArrayAccessor.OBJECT_ARRAY_LENGTH.internalMemberName()));</pre></td>
+<td><pre>            assert(InvokerBytecodeGenerator.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/InvokerBytecodeGenerator.html#linenum927">isStaticallyInvocable</a>(ArrayAccessor.OBJECT_ARRAY_LENGTH.internalMemberName()));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum165" class="linenum-cell" data-linenum="165" href="#linenum165"></a></td>
@@ -844,7 +844,7 @@
 </tr>
 <tr>
 <td><a id="linenum210" class="linenum-cell" data-linenum="210" href="#linenum210"></a></td>
-<td><pre>                case GET:    return MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum281">methodType</a>(<a class="variable" href="#linenum203">elemClass</a>,  <a class="variable" href="#linenum204">arrayArgClass</a>, int.class);</pre></td>
+<td><pre>                case GET:    return MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum235">methodType</a>(<a class="variable" href="#linenum203">elemClass</a>,  <a class="variable" href="#linenum204">arrayArgClass</a>, int.class);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum211" class="linenum-cell" data-linenum="211" href="#linenum211"></a></td>
@@ -852,7 +852,7 @@
 </tr>
 <tr>
 <td><a id="linenum212" class="linenum-cell" data-linenum="212" href="#linenum212"></a></td>
-<td><pre>                case LENGTH: return MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum281">methodType</a>(int.class,  <a class="variable" href="#linenum204">arrayArgClass</a>);</pre></td>
+<td><pre>                case LENGTH: return MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum198">methodType</a>(int.class,  <a class="variable" href="#linenum204">arrayArgClass</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum213" class="linenum-cell" data-linenum="213" href="#linenum213"></a></td>
@@ -880,7 +880,7 @@
 </tr>
 <tr>
 <td><a id="linenum219" class="linenum-cell" data-linenum="219" href="#linenum219"></a></td>
-<td><pre>                case GET:    return MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum281">methodType</a>(<a class="variable" href="#linenum217">elemClass</a>,  <a class="variable" href="#linenum216">arrayClass</a>, int.class);</pre></td>
+<td><pre>                case GET:    return MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum235">methodType</a>(<a class="variable" href="#linenum217">elemClass</a>,  <a class="variable" href="#linenum216">arrayClass</a>, int.class);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum220" class="linenum-cell" data-linenum="220" href="#linenum220"></a></td>
@@ -888,7 +888,7 @@
 </tr>
 <tr>
 <td><a id="linenum221" class="linenum-cell" data-linenum="221" href="#linenum221"></a></td>
-<td><pre>                case LENGTH: return MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum281">methodType</a>(int.class,  <a class="variable" href="#linenum216">arrayClass</a>);</pre></td>
+<td><pre>                case LENGTH: return MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum198">methodType</a>(int.class,  <a class="variable" href="#linenum216">arrayClass</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum222" class="linenum-cell" data-linenum="222" href="#linenum222"></a></td>
@@ -1660,7 +1660,7 @@
 </tr>
 <tr>
 <td><a id="linenum414" class="linenum-cell" data-linenum="414" href="#linenum414"></a></td>
-<td><pre>            if (!VerifyType.<a class="type" href="/OdinCodeBrowserJdk11/sun/invoke/util/VerifyType.html#linenum122">isNullConversion</a>(<a class="variable" href="#linenum412">src</a>, <a class="variable" href="#linenum413">dst</a>, <span class='comment'>/*keepInterfaces=*/</span> <a class="variable" href="#linenum407">strict</a>)) {</pre></td>
+<td><pre>            if (!VerifyType.<a class="type" href="/OdinCodeBrowserJdk11/sun/invoke/util/VerifyType.html#linenum67">isNullConversion</a>(<a class="variable" href="#linenum412">src</a>, <a class="variable" href="#linenum413">dst</a>, <span class='comment'>/*keepInterfaces=*/</span> <a class="variable" href="#linenum407">strict</a>)) {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum415" class="linenum-cell" data-linenum="415" href="#linenum415"></a></td>
@@ -1732,7 +1732,7 @@
 </tr>
 <tr>
 <td><a id="linenum432" class="linenum-cell" data-linenum="432" href="#linenum432"></a></td>
-<td><pre>        assert(!VerifyType.<a class="type" href="/OdinCodeBrowserJdk11/sun/invoke/util/VerifyType.html#linenum122">isNullConversion</a>(<a class="variable" href="#linenum431">src</a>, <a class="variable" href="#linenum431">dst</a>, <span class='comment'>/*keepInterfaces=*/</span> <a class="variable" href="#linenum431">strict</a>));  <span class='comment'>// caller responsibility</span></pre></td>
+<td><pre>        assert(!VerifyType.<a class="type" href="/OdinCodeBrowserJdk11/sun/invoke/util/VerifyType.html#linenum67">isNullConversion</a>(<a class="variable" href="#linenum431">src</a>, <a class="variable" href="#linenum431">dst</a>, <span class='comment'>/*keepInterfaces=*/</span> <a class="variable" href="#linenum431">strict</a>));  <span class='comment'>// caller responsibility</span></pre></td>
 </tr>
 <tr>
 <td><a id="linenum433" class="linenum-cell" data-linenum="433" href="#linenum433"></a></td>
@@ -1768,7 +1768,7 @@
 </tr>
 <tr>
 <td><a id="linenum441" class="linenum-cell" data-linenum="441" href="#linenum441"></a></td>
-<td><pre>                <a class="variable" href="#linenum435">fn</a> = ValueConversions.<a class="type" href="/OdinCodeBrowserJdk11/sun/invoke/util/ValueConversions.html#linenum664">convertPrimitive</a>(<a class="variable" href="#linenum431">src</a>, <a class="variable" href="#linenum431">dst</a>);</pre></td>
+<td><pre>                <a class="variable" href="#linenum435">fn</a> = ValueConversions.<a class="type" href="/OdinCodeBrowserJdk11/sun/invoke/util/ValueConversions.html#linenum635">convertPrimitive</a>(<a class="variable" href="#linenum431">src</a>, <a class="variable" href="#linenum431">dst</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum442" class="linenum-cell" data-linenum="442" href="#linenum442"></a></td>
@@ -1796,7 +1796,7 @@
 </tr>
 <tr>
 <td><a id="linenum448" class="linenum-cell" data-linenum="448" href="#linenum448"></a></td>
-<td><pre>                if (!VerifyType.<a class="type" href="/OdinCodeBrowserJdk11/sun/invoke/util/VerifyType.html#linenum122">isNullConversion</a>(<a class="variable" href="#linenum444">wsrc</a>.wrapperType(), <a class="variable" href="#linenum431">dst</a>, <a class="variable" href="#linenum431">strict</a>)) {</pre></td>
+<td><pre>                if (!VerifyType.<a class="type" href="/OdinCodeBrowserJdk11/sun/invoke/util/VerifyType.html#linenum67">isNullConversion</a>(<a class="variable" href="#linenum444">wsrc</a>.wrapperType(), <a class="variable" href="#linenum431">dst</a>, <a class="variable" href="#linenum431">strict</a>)) {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum449" class="linenum-cell" data-linenum="449" href="#linenum449"></a></td>
@@ -1804,7 +1804,7 @@
 </tr>
 <tr>
 <td><a id="linenum450" class="linenum-cell" data-linenum="450" href="#linenum450"></a></td>
-<td><pre>                    <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum93">MethodType</a> mt = MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum281">methodType</a>(<a class="variable" href="#linenum431">dst</a>, <a class="variable" href="#linenum431">src</a>);</pre></td>
+<td><pre>                    <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum93">MethodType</a> mt = MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum198">methodType</a>(<a class="variable" href="#linenum431">dst</a>, <a class="variable" href="#linenum431">src</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum451" class="linenum-cell" data-linenum="451" href="#linenum451"></a></td>
@@ -2348,7 +2348,7 @@
 </tr>
 <tr>
 <td><a id="linenum586" class="linenum-cell" data-linenum="586" href="#linenum586"></a></td>
-<td><pre>                ? new <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>[<a class="variable" href="#linenum584">collected</a>] : Array.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/reflect/Array.html#linenum112">newInstance</a>(<a class="variable" href="#linenum583">elemType</a>, <a class="variable" href="#linenum584">collected</a>);</pre></td>
+<td><pre>                ? new <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>[<a class="variable" href="#linenum584">collected</a>] : Array.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/reflect/Array.html#linenum76">newInstance</a>(<a class="variable" href="#linenum583">elemType</a>, <a class="variable" href="#linenum584">collected</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum587" class="linenum-cell" data-linenum="587" href="#linenum587"></a></td>
@@ -2764,7 +2764,7 @@
 </tr>
 <tr>
 <td><a id="linenum690" class="linenum-cell" data-linenum="690" href="#linenum690"></a></td>
-<td><pre>            <a class="variable" href="#linenum687">srcType</a> = <a class="variable" href="#linenum687">srcType</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum436">insertParameterTypes</a>(<a class="variable" href="#linenum681">collectArgPos</a>, <a class="variable" href="#linenum683">collectorType</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum778">parameterArray</a>());</pre></td>
+<td><pre>            <a class="variable" href="#linenum687">srcType</a> = <a class="variable" href="#linenum687">srcType</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum393">insertParameterTypes</a>(<a class="variable" href="#linenum681">collectArgPos</a>, <a class="variable" href="#linenum683">collectorType</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum778">parameterArray</a>());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum691" class="linenum-cell" data-linenum="691" href="#linenum691"></a></td>
@@ -2812,7 +2812,7 @@
 </tr>
 <tr>
 <td><a id="linenum702" class="linenum-cell" data-linenum="702" href="#linenum702"></a></td>
-<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/LambdaForm.html#linenum1351">Name</a>[] collectorArgs = Arrays.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Arrays.html#linenum4278">copyOfRange</a>(<a class="variable" href="#linenum698">names</a>, 1 + <a class="variable" href="#linenum681">collectArgPos</a>, 1 + <a class="variable" href="#linenum681">collectArgPos</a> + <a class="variable" href="#linenum684">collectArgCount</a>);</pre></td>
+<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/LambdaForm.html#linenum1351">Name</a>[] collectorArgs = Arrays.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Arrays.html#linenum3948">copyOfRange</a>(<a class="variable" href="#linenum698">names</a>, 1 + <a class="variable" href="#linenum681">collectArgPos</a>, 1 + <a class="variable" href="#linenum681">collectArgPos</a> + <a class="variable" href="#linenum684">collectArgCount</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum703" class="linenum-cell" data-linenum="703" href="#linenum703"></a></td>
@@ -3008,7 +3008,7 @@
 </tr>
 <tr>
 <td><a id="linenum751" class="linenum-cell" data-linenum="751" href="#linenum751"></a></td>
-<td><pre>            <a class="variable" href="#linenum747">counters</a>[<a class="variable" href="#linenum749">idx</a>] = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum840">addExact</a>(<a class="variable" href="#linenum747">counters</a>[<a class="variable" href="#linenum749">idx</a>], 1);</pre></td>
+<td><pre>            <a class="variable" href="#linenum747">counters</a>[<a class="variable" href="#linenum749">idx</a>] = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum820">addExact</a>(<a class="variable" href="#linenum747">counters</a>[<a class="variable" href="#linenum749">idx</a>], 1);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum752" class="linenum-cell" data-linenum="752" href="#linenum752"></a></td>
@@ -3916,7 +3916,7 @@
 </tr>
 <tr>
 <td><a id="linenum978" class="linenum-cell" data-linenum="978" href="#linenum978"></a></td>
-<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>[] invokeArgs = Arrays.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Arrays.html#linenum4278">copyOfRange</a>(<a class="variable" href="#linenum966">names</a>, 0, <a class="variable" href="#linenum952">ARG_LIMIT</a>, <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>[].class);</pre></td>
+<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>[] invokeArgs = Arrays.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Arrays.html#linenum3986">copyOfRange</a>(<a class="variable" href="#linenum966">names</a>, 0, <a class="variable" href="#linenum952">ARG_LIMIT</a>, <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>[].class);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum979" class="linenum-cell" data-linenum="979" href="#linenum979"></a></td>
@@ -4276,7 +4276,7 @@
 </tr>
 <tr>
 <td><a id="linenum1068" class="linenum-cell" data-linenum="1068" href="#linenum1068"></a></td>
-<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum431">MethodHandle</a> invokeBasicUnbox = MethodHandles.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandles.html#linenum3053">basicInvoker</a>(MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum281">methodType</a>(<a class="variable" href="#linenum1022">basicType</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum117">rtype</a>(), <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>.class));</pre></td>
+<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum431">MethodHandle</a> invokeBasicUnbox = MethodHandles.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandles.html#linenum3053">basicInvoker</a>(MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum198">methodType</a>(<a class="variable" href="#linenum1022">basicType</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum117">rtype</a>(), <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>.class));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1069" class="linenum-cell" data-linenum="1069" href="#linenum1069"></a></td>
@@ -4352,7 +4352,7 @@
 </tr>
 <tr>
 <td><a id="linenum1087" class="linenum-cell" data-linenum="1087" href="#linenum1087"></a></td>
-<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum431">MethodHandle</a> collectArgs = <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandleImpl.html#linenum1670">varargsArray</a>(<a class="variable" href="#linenum1081">type</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum732">parameterCount</a>()).asType(<a class="variable" href="#linenum1086">varargsType</a>);</pre></td>
+<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum431">MethodHandle</a> collectArgs = <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandleImpl.html#linenum1570">varargsArray</a>(<a class="variable" href="#linenum1081">type</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum732">parameterCount</a>()).asType(<a class="variable" href="#linenum1086">varargsType</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1088" class="linenum-cell" data-linenum="1088" href="#linenum1088"></a></td>
@@ -4540,11 +4540,11 @@
 </tr>
 <tr>
 <td><a id="linenum1134" class="linenum-cell" data-linenum="1134" href="#linenum1134"></a></td>
-<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum431">MethodHandle</a> mh = <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandleImpl.html#linenum1141">throwException</a>(<a class="variable" href="#linenum1130">type</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum565">dropParameterTypes</a>(1, <a class="variable" href="#linenum1132">arity</a>));</pre></td>
+<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum431">MethodHandle</a> mh = <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandleImpl.html#linenum1129">throwException</a>(<a class="variable" href="#linenum1130">type</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum565">dropParameterTypes</a>(1, <a class="variable" href="#linenum1132">arity</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1135" class="linenum-cell" data-linenum="1135" href="#linenum1135"></a></td>
-<td><pre>            <a class="variable" href="#linenum1134">mh</a> = MethodHandles.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandles.html#linenum3668">dropArguments</a>(<a class="variable" href="#linenum1134">mh</a>, 1, Arrays.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Arrays.html#linenum4278">copyOfRange</a>(<a class="variable" href="#linenum1130">type</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum778">parameterArray</a>(), 1, <a class="variable" href="#linenum1132">arity</a>));</pre></td>
+<td><pre>            <a class="variable" href="#linenum1134">mh</a> = MethodHandles.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandles.html#linenum3668">dropArguments</a>(<a class="variable" href="#linenum1134">mh</a>, 1, Arrays.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Arrays.html#linenum3948">copyOfRange</a>(<a class="variable" href="#linenum1130">type</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum778">parameterArray</a>(), 1, <a class="variable" href="#linenum1132">arity</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1136" class="linenum-cell" data-linenum="1136" href="#linenum1136"></a></td>
@@ -4592,7 +4592,7 @@
 </tr>
 <tr>
 <td><a id="linenum1147" class="linenum-cell" data-linenum="1147" href="#linenum1147"></a></td>
-<td><pre>        switch (<a class="variable" href="#linenum1144">method</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MemberName.html#linenum920">getName</a>()) {</pre></td>
+<td><pre>        switch (<a class="variable" href="#linenum1144">method</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MemberName.html#linenum104">getName</a>()) {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1148" class="linenum-cell" data-linenum="1148" href="#linenum1148"></a></td>
@@ -4604,7 +4604,7 @@
 </tr>
 <tr>
 <td><a id="linenum1150" class="linenum-cell" data-linenum="1150" href="#linenum1150"></a></td>
-<td><pre>        default:             throw new <a class="type" href="/OdinCodeBrowserJdk11/java/lang/InternalError.html#linenum35">InternalError</a>(<a class="variable" href="#linenum1144">method</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MemberName.html#linenum920">getName</a>());</pre></td>
+<td><pre>        default:             throw new <a class="type" href="/OdinCodeBrowserJdk11/java/lang/InternalError.html#linenum35">InternalError</a>(<a class="variable" href="#linenum1144">method</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MemberName.html#linenum104">getName</a>());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1151" class="linenum-cell" data-linenum="1151" href="#linenum1151"></a></td>
@@ -4788,7 +4788,7 @@
 </tr>
 <tr>
 <td><a id="linenum1196" class="linenum-cell" data-linenum="1196" href="#linenum1196"></a></td>
-<td><pre>        private static <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum93">MethodType</a> INVOKER_MT = MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum281">methodType</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>.class, <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum431">MethodHandle</a>.class, <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>[].class);</pre></td>
+<td><pre>        private static <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum93">MethodType</a> INVOKER_MT = MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum235">methodType</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>.class, <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum431">MethodHandle</a>.class, <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>[].class);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1197" class="linenum-cell" data-linenum="1197" href="#linenum1197"></a></td>
@@ -4964,7 +4964,7 @@
 </tr>
 <tr>
 <td><a id="linenum1240" class="linenum-cell" data-linenum="1240" href="#linenum1240"></a></td>
-<td><pre>            <a class="variable" href="#linenum1238">vamh</a> = <a class="variable" href="#linenum1238">vamh</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum1001">asSpreader</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>[].class, <a class="variable" href="#linenum1237">arity</a>);</pre></td>
+<td><pre>            <a class="variable" href="#linenum1238">vamh</a> = <a class="variable" href="#linenum1238">vamh</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum958">asSpreader</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>[].class, <a class="variable" href="#linenum1237">arity</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1241" class="linenum-cell" data-linenum="1241" href="#linenum1241"></a></td>
@@ -5004,7 +5004,7 @@
 </tr>
 <tr>
 <td><a id="linenum1250" class="linenum-cell" data-linenum="1250" href="#linenum1250"></a></td>
-<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum431">MethodHandle</a> mh = <a class="variable" href="#linenum1246">vamh</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum1219">asCollector</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>[].class, <a class="variable" href="#linenum1249">type</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum732">parameterCount</a>());</pre></td>
+<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum431">MethodHandle</a> mh = <a class="variable" href="#linenum1246">vamh</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum1172">asCollector</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>[].class, <a class="variable" href="#linenum1249">type</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum732">parameterCount</a>());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1251" class="linenum-cell" data-linenum="1251" href="#linenum1251"></a></td>
@@ -5128,7 +5128,7 @@
 </tr>
 <tr>
 <td><a id="linenum1281" class="linenum-cell" data-linenum="1281" href="#linenum1281"></a></td>
-<td><pre>                                MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum281">methodType</a>(boolean.class, <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Class.html#linenum153">Class</a>.class));</pre></td>
+<td><pre>                                MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum198">methodType</a>(boolean.class, <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Class.html#linenum153">Class</a>.class));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1282" class="linenum-cell" data-linenum="1282" href="#linenum1282"></a></td>
@@ -5508,7 +5508,7 @@
 </tr>
 <tr>
 <td><a id="linenum1376" class="linenum-cell" data-linenum="1376" href="#linenum1376"></a></td>
-<td><pre>        if (<a class="variable" href="#linenum1375">member</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MemberName.html#linenum786">equals</a>(<a class="variable" href="#linenum1375">target</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum1595">internalMemberName</a>()) &amp;&amp; <a class="variable" href="#linenum1375">isInvokeSpecial</a> == <a class="variable" href="#linenum1375">target</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum1626">isInvokeSpecial</a>())</pre></td>
+<td><pre>        if (<a class="variable" href="#linenum1375">member</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MemberName.html#linenum776">equals</a>(<a class="variable" href="#linenum1375">target</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum1595">internalMemberName</a>()) &amp;&amp; <a class="variable" href="#linenum1375">isInvokeSpecial</a> == <a class="variable" href="#linenum1375">target</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum1626">isInvokeSpecial</a>())</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1377" class="linenum-cell" data-linenum="1377" href="#linenum1377"></a></td>
@@ -5760,7 +5760,7 @@
 </tr>
 <tr>
 <td><a id="linenum1439" class="linenum-cell" data-linenum="1439" href="#linenum1439"></a></td>
-<td><pre>            return super.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum1219">asCollector</a>(<a class="variable" href="#linenum1433">arrayType</a>, <a class="variable" href="#linenum1433">arrayLength</a>);</pre></td>
+<td><pre>            return super.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum1172">asCollector</a>(<a class="variable" href="#linenum1433">arrayType</a>, <a class="variable" href="#linenum1433">arrayLength</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1440" class="linenum-cell" data-linenum="1440" href="#linenum1440"></a></td>
@@ -6404,7 +6404,7 @@
 </tr>
 <tr>
 <td><a id="linenum1600" class="linenum-cell" data-linenum="1600" href="#linenum1600"></a></td>
-<td><pre>        int leftLen = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum1570">min</a>(<a class="variable" href="#linenum1596">nargs</a>, LEFT_ARGS);  <span class='comment'>// absorb some arguments immediately</span></pre></td>
+<td><pre>        int leftLen = Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum1511">min</a>(<a class="variable" href="#linenum1596">nargs</a>, LEFT_ARGS);  <span class='comment'>// absorb some arguments immediately</span></pre></td>
 </tr>
 <tr>
 <td><a id="linenum1601" class="linenum-cell" data-linenum="1601" href="#linenum1601"></a></td>
@@ -6416,7 +6416,7 @@
 </tr>
 <tr>
 <td><a id="linenum1603" class="linenum-cell" data-linenum="1603" href="#linenum1603"></a></td>
-<td><pre>        <a class="variable" href="#linenum1602">leftCollector</a> = <a class="variable" href="#linenum1602">leftCollector</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum1219">asCollector</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>[].class, <a class="variable" href="#linenum1600">leftLen</a>);</pre></td>
+<td><pre>        <a class="variable" href="#linenum1602">leftCollector</a> = <a class="variable" href="#linenum1602">leftCollector</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum1172">asCollector</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>[].class, <a class="variable" href="#linenum1600">leftLen</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1604" class="linenum-cell" data-linenum="1604" href="#linenum1604"></a></td>
@@ -6736,7 +6736,7 @@
 </tr>
 <tr>
 <td><a id="linenum1683" class="linenum-cell" data-linenum="1683" href="#linenum1683"></a></td>
-<td><pre>            return <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandleImpl.html#linenum1670">varargsArray</a>(<a class="variable" href="#linenum1670">nargs</a>);</pre></td>
+<td><pre>            return <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandleImpl.html#linenum1570">varargsArray</a>(<a class="variable" href="#linenum1670">nargs</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1684" class="linenum-cell" data-linenum="1684" href="#linenum1684"></a></td>
@@ -6792,7 +6792,7 @@
 </tr>
 <tr>
 <td><a id="linenum1697" class="linenum-cell" data-linenum="1697" href="#linenum1697"></a></td>
-<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>[] example = Arrays.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Arrays.html#linenum3912">copyOf</a>(<a class="variable" href="#linenum1466">NO_ARGS_ARRAY</a>, 0, <a class="variable" href="#linenum1696">objArrayType</a>);</pre></td>
+<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>[] example = Arrays.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Arrays.html#linenum3716">copyOf</a>(<a class="variable" href="#linenum1466">NO_ARGS_ARRAY</a>, 0, <a class="variable" href="#linenum1696">objArrayType</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1698" class="linenum-cell" data-linenum="1698" href="#linenum1698"></a></td>
@@ -6812,7 +6812,7 @@
 </tr>
 <tr>
 <td><a id="linenum1702" class="linenum-cell" data-linenum="1702" href="#linenum1702"></a></td>
-<td><pre>        <a class="variable" href="#linenum1686">mh</a> = <a class="variable" href="#linenum1686">mh</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum836">asType</a>(MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum281">methodType</a>(<a class="variable" href="#linenum1670">arrayType</a>, Collections.&lt;<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Class.html#linenum153">Class</a>&lt;?&gt;&gt;<a class="type" href="/OdinCodeBrowserJdk11/java/util/Collections.html#linenum5023">nCopies</a>(<a class="variable" href="#linenum1670">nargs</a>, <a class="variable" href="#linenum1671">elemType</a>)));</pre></td>
+<td><pre>        <a class="variable" href="#linenum1686">mh</a> = <a class="variable" href="#linenum1686">mh</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum836">asType</a>(MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum198">methodType</a>(<a class="variable" href="#linenum1670">arrayType</a>, Collections.&lt;<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Class.html#linenum153">Class</a>&lt;?&gt;&gt;<a class="type" href="/OdinCodeBrowserJdk11/java/util/Collections.html#linenum5023">nCopies</a>(<a class="variable" href="#linenum1670">nargs</a>, <a class="variable" href="#linenum1671">elemType</a>)));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1703" class="linenum-cell" data-linenum="1703" href="#linenum1703"></a></td>
@@ -7148,7 +7148,7 @@
 </tr>
 <tr>
 <td><a id="linenum1786" class="linenum-cell" data-linenum="1786" href="#linenum1786"></a></td>
-<td><pre>                return <a class="variable" href="#linenum1785">memberName</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MemberName.html#linenum920">getName</a>();</pre></td>
+<td><pre>                return <a class="variable" href="#linenum1785">memberName</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MemberName.html#linenum104">getName</a>();</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1787" class="linenum-cell" data-linenum="1787" href="#linenum1787"></a></td>
@@ -7528,7 +7528,7 @@
 </tr>
 <tr>
 <td><a id="linenum1881" class="linenum-cell" data-linenum="1881" href="#linenum1881"></a></td>
-<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum93">MethodType</a> type = MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum281">methodType</a>(<a class="variable" href="#linenum1879">tloop</a>, <a class="variable" href="#linenum1879">targs</a>);</pre></td>
+<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum93">MethodType</a> type = MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum198">methodType</a>(<a class="variable" href="#linenum1879">tloop</a>, <a class="variable" href="#linenum1879">targs</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1882" class="linenum-cell" data-linenum="1882" href="#linenum1882"></a></td>
@@ -7560,7 +7560,7 @@
 </tr>
 <tr>
 <td><a id="linenum1889" class="linenum-cell" data-linenum="1889" href="#linenum1889"></a></td>
-<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum431">MethodHandle</a> collectArgs = <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandleImpl.html#linenum1670">varargsArray</a>(<a class="variable" href="#linenum1881">type</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum732">parameterCount</a>()).asType(<a class="variable" href="#linenum1888">varargsType</a>);</pre></td>
+<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum431">MethodHandle</a> collectArgs = <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandleImpl.html#linenum1570">varargsArray</a>(<a class="variable" href="#linenum1881">type</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum732">parameterCount</a>()).asType(<a class="variable" href="#linenum1888">varargsType</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1890" class="linenum-cell" data-linenum="1890" href="#linenum1890"></a></td>
@@ -7916,7 +7916,7 @@
 </tr>
 <tr>
 <td><a id="linenum1978" class="linenum-cell" data-linenum="1978" href="#linenum1978"></a></td>
-<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum431">MethodHandle</a> invokeBasicUnbox = MethodHandles.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandles.html#linenum3053">basicInvoker</a>(MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum281">methodType</a>(<a class="variable" href="#linenum1938">basicType</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum117">rtype</a>(), <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>.class));</pre></td>
+<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum431">MethodHandle</a> invokeBasicUnbox = MethodHandles.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandles.html#linenum3053">basicInvoker</a>(MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum198">methodType</a>(<a class="variable" href="#linenum1938">basicType</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum117">rtype</a>(), <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>.class));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1979" class="linenum-cell" data-linenum="1979" href="#linenum1979"></a></td>
@@ -8008,7 +8008,7 @@
 </tr>
 <tr>
 <td><a id="linenum2001" class="linenum-cell" data-linenum="2001" href="#linenum2001"></a></td>
-<td><pre>                    <a class="variable" href="#linenum1998">sb</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/StringBuffer.html#linenum460">append</a>(<span class='string'>&quot;       &quot;</span>);</pre></td>
+<td><pre>                    <a class="variable" href="#linenum1998">sb</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/StringBuffer.html#linenum301">append</a>(<span class='string'>&quot;       &quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2002" class="linenum-cell" data-linenum="2002" href="#linenum2002"></a></td>
@@ -8016,7 +8016,7 @@
 </tr>
 <tr>
 <td><a id="linenum2003" class="linenum-cell" data-linenum="2003" href="#linenum2003"></a></td>
-<td><pre>                <a class="variable" href="#linenum1998">sb</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/StringBuffer.html#linenum460">append</a>('&lt;').append(<a class="variable" href="#linenum1999">i</a>).append(<span class='string'>&quot;&gt;: &quot;</span>);</pre></td>
+<td><pre>                <a class="variable" href="#linenum1998">sb</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/StringBuffer.html#linenum301">append</a>('&lt;').append(<a class="variable" href="#linenum1999">i</a>).append(<span class='string'>&quot;&gt;: &quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2004" class="linenum-cell" data-linenum="2004" href="#linenum2004"></a></td>
@@ -8032,7 +8032,7 @@
 </tr>
 <tr>
 <td><a id="linenum2007" class="linenum-cell" data-linenum="2007" href="#linenum2007"></a></td>
-<td><pre>                        <a class="variable" href="#linenum1998">sb</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/StringBuffer.html#linenum460">append</a>(<span class='string'>&quot;          &quot;</span>);</pre></td>
+<td><pre>                        <a class="variable" href="#linenum1998">sb</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/StringBuffer.html#linenum301">append</a>(<span class='string'>&quot;          &quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2008" class="linenum-cell" data-linenum="2008" href="#linenum2008"></a></td>
@@ -8040,7 +8040,7 @@
 </tr>
 <tr>
 <td><a id="linenum2009" class="linenum-cell" data-linenum="2009" href="#linenum2009"></a></td>
-<td><pre>                    <a class="variable" href="#linenum1998">sb</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/StringBuffer.html#linenum460">append</a>('*').append(<a class="variable" href="#linenum2005">j</a>).append(<span class='string'>&quot;: &quot;</span>).append(<a class="variable" href="#linenum2004">hs</a>[<a class="variable" href="#linenum2005">j</a>]).append('\n');</pre></td>
+<td><pre>                    <a class="variable" href="#linenum1998">sb</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/StringBuffer.html#linenum301">append</a>('*').append(<a class="variable" href="#linenum2005">j</a>).append(<span class='string'>&quot;: &quot;</span>).append(<a class="variable" href="#linenum2004">hs</a>[<a class="variable" href="#linenum2005">j</a>]).append('\n');</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2010" class="linenum-cell" data-linenum="2010" href="#linenum2010"></a></td>
@@ -8052,7 +8052,7 @@
 </tr>
 <tr>
 <td><a id="linenum2012" class="linenum-cell" data-linenum="2012" href="#linenum2012"></a></td>
-<td><pre>            <a class="variable" href="#linenum1998">sb</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/StringBuffer.html#linenum460">append</a>(<span class='string'>&quot; --\n&quot;</span>);</pre></td>
+<td><pre>            <a class="variable" href="#linenum1998">sb</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/StringBuffer.html#linenum301">append</a>(<span class='string'>&quot; --\n&quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2013" class="linenum-cell" data-linenum="2013" href="#linenum2013"></a></td>
@@ -8112,7 +8112,7 @@
 </tr>
 <tr>
 <td><a id="linenum2027" class="linenum-cell" data-linenum="2027" href="#linenum2027"></a></td>
-<td><pre>        int varSize = (int) Stream.<a class="type" href="/OdinCodeBrowserJdk11/java/util/stream/Stream.html#linenum1185">of</a>(<a class="variable" href="#linenum2023">init</a>).filter(h -&gt; <a class="variable" href="#linenum1883">h</a>.type().returnType() != void.class).count();</pre></td>
+<td><pre>        int varSize = (int) Stream.<a class="type" href="/OdinCodeBrowserJdk11/java/util/stream/Stream.html#linenum1159">of</a>(<a class="variable" href="#linenum2023">init</a>).filter(h -&gt; <a class="variable" href="#linenum1883">h</a>.type().returnType() != void.class).count();</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2028" class="linenum-cell" data-linenum="2028" href="#linenum2028"></a></td>
@@ -8188,7 +8188,7 @@
 </tr>
 <tr>
 <td><a id="linenum2046" class="linenum-cell" data-linenum="2046" href="#linenum2046"></a></td>
-<td><pre>                    <a class="variable" href="#linenum2043">s</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum734">invokeWithArguments</a>(<a class="variable" href="#linenum2029">varsAndArgs</a>);</pre></td>
+<td><pre>                    <a class="variable" href="#linenum2043">s</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum707">invokeWithArguments</a>(<a class="variable" href="#linenum2029">varsAndArgs</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2047" class="linenum-cell" data-linenum="2047" href="#linenum2047"></a></td>
@@ -8196,7 +8196,7 @@
 </tr>
 <tr>
 <td><a id="linenum2048" class="linenum-cell" data-linenum="2048" href="#linenum2048"></a></td>
-<td><pre>                    <a class="variable" href="#linenum2029">varsAndArgs</a>[<a class="variable" href="#linenum2041">v</a>++] = <a class="variable" href="#linenum2043">s</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum734">invokeWithArguments</a>(<a class="variable" href="#linenum2029">varsAndArgs</a>);</pre></td>
+<td><pre>                    <a class="variable" href="#linenum2029">varsAndArgs</a>[<a class="variable" href="#linenum2041">v</a>++] = <a class="variable" href="#linenum2043">s</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum707">invokeWithArguments</a>(<a class="variable" href="#linenum2029">varsAndArgs</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2049" class="linenum-cell" data-linenum="2049" href="#linenum2049"></a></td>
@@ -8204,11 +8204,11 @@
 </tr>
 <tr>
 <td><a id="linenum2050" class="linenum-cell" data-linenum="2050" href="#linenum2050"></a></td>
-<td><pre>                if (!(boolean) <a class="variable" href="#linenum2042">p</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum734">invokeWithArguments</a>(<a class="variable" href="#linenum2029">varsAndArgs</a>)) {</pre></td>
+<td><pre>                if (!(boolean) <a class="variable" href="#linenum2042">p</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum707">invokeWithArguments</a>(<a class="variable" href="#linenum2029">varsAndArgs</a>)) {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2051" class="linenum-cell" data-linenum="2051" href="#linenum2051"></a></td>
-<td><pre>                    return <a class="variable" href="#linenum2044">f</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum734">invokeWithArguments</a>(<a class="variable" href="#linenum2029">varsAndArgs</a>);</pre></td>
+<td><pre>                    return <a class="variable" href="#linenum2044">f</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum707">invokeWithArguments</a>(<a class="variable" href="#linenum2029">varsAndArgs</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2052" class="linenum-cell" data-linenum="2052" href="#linenum2052"></a></td>
@@ -8516,7 +8516,7 @@
 </tr>
 <tr>
 <td><a id="linenum2128" class="linenum-cell" data-linenum="2128" href="#linenum2128"></a></td>
-<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum93">MethodType</a> type = MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum281">methodType</a>(<a class="variable" href="#linenum2127">rtype</a>, <a class="variable" href="#linenum2127">argTypes</a>);</pre></td>
+<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum93">MethodType</a> type = MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum198">methodType</a>(<a class="variable" href="#linenum2127">rtype</a>, <a class="variable" href="#linenum2127">argTypes</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2129" class="linenum-cell" data-linenum="2129" href="#linenum2129"></a></td>
@@ -8540,7 +8540,7 @@
 </tr>
 <tr>
 <td><a id="linenum2134" class="linenum-cell" data-linenum="2134" href="#linenum2134"></a></td>
-<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum431">MethodHandle</a> collectArgs = <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandleImpl.html#linenum1670">varargsArray</a>(<a class="variable" href="#linenum2128">type</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum732">parameterCount</a>()).asType(<a class="variable" href="#linenum2133">varargsType</a>);</pre></td>
+<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum431">MethodHandle</a> collectArgs = <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandleImpl.html#linenum1570">varargsArray</a>(<a class="variable" href="#linenum2128">type</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum732">parameterCount</a>()).asType(<a class="variable" href="#linenum2133">varargsType</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2135" class="linenum-cell" data-linenum="2135" href="#linenum2135"></a></td>
@@ -8856,7 +8856,7 @@
 </tr>
 <tr>
 <td><a id="linenum2213" class="linenum-cell" data-linenum="2213" href="#linenum2213"></a></td>
-<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum431">MethodHandle</a> invokeBasicUnbox = MethodHandles.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandles.html#linenum3053">basicInvoker</a>(MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum281">methodType</a>(<a class="variable" href="#linenum2171">basicType</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum117">rtype</a>(), <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>.class));</pre></td>
+<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum431">MethodHandle</a> invokeBasicUnbox = MethodHandles.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandles.html#linenum3053">basicInvoker</a>(MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum198">methodType</a>(<a class="variable" href="#linenum2171">basicType</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum117">rtype</a>(), <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>.class));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2214" class="linenum-cell" data-linenum="2214" href="#linenum2214"></a></td>
@@ -8952,7 +8952,7 @@
 </tr>
 <tr>
 <td><a id="linenum2237" class="linenum-cell" data-linenum="2237" href="#linenum2237"></a></td>
-<td><pre>            <a class="variable" href="#linenum2229">r</a> = <a class="variable" href="#linenum2227">cleanup</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum734">invokeWithArguments</a>(<a class="variable" href="#linenum2236">args</a>);</pre></td>
+<td><pre>            <a class="variable" href="#linenum2229">r</a> = <a class="variable" href="#linenum2227">cleanup</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodHandle.html#linenum707">invokeWithArguments</a>(<a class="variable" href="#linenum2236">args</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2238" class="linenum-cell" data-linenum="2238" href="#linenum2238"></a></td>
@@ -9140,7 +9140,7 @@
 </tr>
 <tr>
 <td><a id="linenum2284" class="linenum-cell" data-linenum="2284" href="#linenum2284"></a></td>
-<td><pre>                            MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum281">methodType</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>.class, <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>.class));</pre></td>
+<td><pre>                            MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum198">methodType</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>.class, <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>.class));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2285" class="linenum-cell" data-linenum="2285" href="#linenum2285"></a></td>
@@ -9152,7 +9152,7 @@
 </tr>
 <tr>
 <td><a id="linenum2287" class="linenum-cell" data-linenum="2287" href="#linenum2287"></a></td>
-<td><pre>                            MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum281">methodType</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>.class, <a class="type" href="/OdinCodeBrowserJdk11/sun/invoke/util/Wrapper.html#linenum28">Wrapper</a>.class, <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>[].class));</pre></td>
+<td><pre>                            MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum235">methodType</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>.class, <a class="type" href="/OdinCodeBrowserJdk11/sun/invoke/util/Wrapper.html#linenum28">Wrapper</a>.class, <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>[].class));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2288" class="linenum-cell" data-linenum="2288" href="#linenum2288"></a></td>
@@ -9164,7 +9164,7 @@
 </tr>
 <tr>
 <td><a id="linenum2290" class="linenum-cell" data-linenum="2290" href="#linenum2290"></a></td>
-<td><pre>                            MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum281">methodType</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>[].class, <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>[].class));</pre></td>
+<td><pre>                            MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum198">methodType</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>[].class, <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>[].class));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2291" class="linenum-cell" data-linenum="2291" href="#linenum2291"></a></td>
@@ -9176,7 +9176,7 @@
 </tr>
 <tr>
 <td><a id="linenum2293" class="linenum-cell" data-linenum="2293" href="#linenum2293"></a></td>
-<td><pre>                            MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum281">methodType</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>[].class, <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Integer.html#linenum59">Integer</a>.class, <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>[].class));</pre></td>
+<td><pre>                            MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum235">methodType</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>[].class, <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Integer.html#linenum59">Integer</a>.class, <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>[].class));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2294" class="linenum-cell" data-linenum="2294" href="#linenum2294"></a></td>
@@ -9212,7 +9212,7 @@
 </tr>
 <tr>
 <td><a id="linenum2302" class="linenum-cell" data-linenum="2302" href="#linenum2302"></a></td>
-<td><pre>                            MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum281">methodType</a>(boolean.class, int.class, int.class));</pre></td>
+<td><pre>                            MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum235">methodType</a>(boolean.class, int.class, int.class));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2303" class="linenum-cell" data-linenum="2303" href="#linenum2303"></a></td>
@@ -9224,7 +9224,7 @@
 </tr>
 <tr>
 <td><a id="linenum2305" class="linenum-cell" data-linenum="2305" href="#linenum2305"></a></td>
-<td><pre>                            MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum281">methodType</a>(int.class, int.class, int.class));</pre></td>
+<td><pre>                            MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum235">methodType</a>(int.class, int.class, int.class));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2306" class="linenum-cell" data-linenum="2306" href="#linenum2306"></a></td>
@@ -9236,7 +9236,7 @@
 </tr>
 <tr>
 <td><a id="linenum2308" class="linenum-cell" data-linenum="2308" href="#linenum2308"></a></td>
-<td><pre>                            MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum281">methodType</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/util/Iterator.html#linenum58">Iterator</a>.class, <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Iterable.html#linenum42">Iterable</a>.class));</pre></td>
+<td><pre>                            MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum198">methodType</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/util/Iterator.html#linenum58">Iterator</a>.class, <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Iterable.html#linenum42">Iterable</a>.class));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2309" class="linenum-cell" data-linenum="2309" href="#linenum2309"></a></td>
@@ -9248,7 +9248,7 @@
 </tr>
 <tr>
 <td><a id="linenum2311" class="linenum-cell" data-linenum="2311" href="#linenum2311"></a></td>
-<td><pre>                            MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum281">methodType</a>(boolean.class, <a class="type" href="/OdinCodeBrowserJdk11/java/util/Iterator.html#linenum58">Iterator</a>.class));</pre></td>
+<td><pre>                            MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum198">methodType</a>(boolean.class, <a class="type" href="/OdinCodeBrowserJdk11/java/util/Iterator.html#linenum58">Iterator</a>.class));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2312" class="linenum-cell" data-linenum="2312" href="#linenum2312"></a></td>
@@ -9260,7 +9260,7 @@
 </tr>
 <tr>
 <td><a id="linenum2314" class="linenum-cell" data-linenum="2314" href="#linenum2314"></a></td>
-<td><pre>                            MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum281">methodType</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>.class, <a class="type" href="/OdinCodeBrowserJdk11/java/util/Iterator.html#linenum58">Iterator</a>.class));</pre></td>
+<td><pre>                            MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum198">methodType</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>.class, <a class="type" href="/OdinCodeBrowserJdk11/java/util/Iterator.html#linenum58">Iterator</a>.class));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2315" class="linenum-cell" data-linenum="2315" href="#linenum2315"></a></td>
@@ -9272,7 +9272,7 @@
 </tr>
 <tr>
 <td><a id="linenum2317" class="linenum-cell" data-linenum="2317" href="#linenum2317"></a></td>
-<td><pre>                            MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum281">methodType</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>.class, <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Class.html#linenum153">Class</a>.class, int.class));</pre></td>
+<td><pre>                            MethodType.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/invoke/MethodType.html#linenum235">methodType</a>(<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Object.html#linenum39">Object</a>.class, <a class="type" href="/OdinCodeBrowserJdk11/java/lang/Class.html#linenum153">Class</a>.class, int.class));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2318" class="linenum-cell" data-linenum="2318" href="#linenum2318"></a></td>

@@ -712,7 +712,7 @@
 </tr>
 <tr>
 <td><a id="linenum177" class="linenum-cell" data-linenum="177" href="#linenum177"></a></td>
-<td><pre>        <a class="variable" href="#linenum150">BASE_VERSION</a> = Runtime.Version.parse(Integer.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Integer.html#linenum1164">toString</a>(8));</pre></td>
+<td><pre>        <a class="variable" href="#linenum150">BASE_VERSION</a> = Runtime.Version.parse(Integer.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Integer.html#linenum436">toString</a>(8));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum178" class="linenum-cell" data-linenum="178" href="#linenum178"></a></td>
@@ -720,7 +720,7 @@
 </tr>
 <tr>
 <td><a id="linenum179" class="linenum-cell" data-linenum="179" href="#linenum179"></a></td>
-<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum125">String</a> jarVersion = GetPropertyAction.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/action/GetPropertyAction.html#linenum125">privilegedGetProperty</a>(<span class='string'>&quot;jdk.util.jar.version&quot;</span>);</pre></td>
+<td><pre>        <a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum125">String</a> jarVersion = GetPropertyAction.<a class="type" href="/OdinCodeBrowserJdk11/sun/security/action/GetPropertyAction.html#linenum103">privilegedGetProperty</a>(<span class='string'>&quot;jdk.util.jar.version&quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum180" class="linenum-cell" data-linenum="180" href="#linenum180"></a></td>
@@ -744,7 +744,7 @@
 </tr>
 <tr>
 <td><a id="linenum185" class="linenum-cell" data-linenum="185" href="#linenum185"></a></td>
-<td><pre>                    : Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum1489">max</a>(<a class="variable" href="#linenum182">jarVer</a>, <a class="variable" href="#linenum151">BASE_VERSION_FEATURE</a>);</pre></td>
+<td><pre>                    : Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum1426">max</a>(<a class="variable" href="#linenum182">jarVer</a>, <a class="variable" href="#linenum151">BASE_VERSION_FEATURE</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum186" class="linenum-cell" data-linenum="186" href="#linenum186"></a></td>
@@ -752,7 +752,7 @@
 </tr>
 <tr>
 <td><a id="linenum187" class="linenum-cell" data-linenum="187" href="#linenum187"></a></td>
-<td><pre>        <a class="variable" href="#linenum152">RUNTIME_VERSION</a> = Runtime.Version.parse(Integer.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Integer.html#linenum1164">toString</a>(<a class="variable" href="#linenum180">runtimeVersion</a>));</pre></td>
+<td><pre>        <a class="variable" href="#linenum152">RUNTIME_VERSION</a> = Runtime.Version.parse(Integer.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Integer.html#linenum436">toString</a>(<a class="variable" href="#linenum180">runtimeVersion</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum188" class="linenum-cell" data-linenum="188" href="#linenum188"></a></td>
@@ -1396,7 +1396,7 @@
 </tr>
 <tr>
 <td><a id="linenum348" class="linenum-cell" data-linenum="348" href="#linenum348"></a></td>
-<td><pre>        Objects.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Objects.html#linenum344">requireNonNull</a>(<a class="variable" href="#linenum160">version</a>);</pre></td>
+<td><pre>        Objects.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Objects.html#linenum219">requireNonNull</a>(<a class="variable" href="#linenum160">version</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum349" class="linenum-cell" data-linenum="349" href="#linenum349"></a></td>
@@ -1432,7 +1432,7 @@
 </tr>
 <tr>
 <td><a id="linenum357" class="linenum-cell" data-linenum="357" href="#linenum357"></a></td>
-<td><pre>            this.version = Runtime.Version.parse(Integer.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Integer.html#linenum1164">toString</a>(<a class="variable" href="#linenum160">version</a>.feature()));</pre></td>
+<td><pre>            this.version = Runtime.Version.parse(Integer.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Integer.html#linenum436">toString</a>(<a class="variable" href="#linenum160">version</a>.feature()));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum358" class="linenum-cell" data-linenum="358" href="#linenum358"></a></td>
@@ -2332,7 +2332,7 @@
 </tr>
 <tr>
 <td><a id="linenum582" class="linenum-cell" data-linenum="582" href="#linenum582"></a></td>
-<td><pre>            int index = <a class="variable" href="#linenum579">name</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum1705">indexOf</a>('/', <a class="variable" href="#linenum581">off</a>);</pre></td>
+<td><pre>            int index = <a class="variable" href="#linenum579">name</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum1577">indexOf</a>('/', <a class="variable" href="#linenum581">off</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum583" class="linenum-cell" data-linenum="583" href="#linenum583"></a></td>
@@ -2380,7 +2380,7 @@
 </tr>
 <tr>
 <td><a id="linenum594" class="linenum-cell" data-linenum="594" href="#linenum594"></a></td>
-<td><pre>            return <a class="variable" href="#linenum579">name</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum1872">substring</a>(<a class="variable" href="#linenum582">index</a> + 1);</pre></td>
+<td><pre>            return <a class="variable" href="#linenum579">name</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum1835">substring</a>(<a class="variable" href="#linenum582">index</a> + 1);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum595" class="linenum-cell" data-linenum="595" href="#linenum595"></a></td>
@@ -3912,7 +3912,7 @@
 </tr>
 <tr>
 <td><a id="linenum977" class="linenum-cell" data-linenum="977" href="#linenum977"></a></td>
-<td><pre>                        <a class="variable" href="#linenum966">i</a> += Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum1489">max</a>(<a class="variable" href="#linenum969">j</a> + 1 - <a class="variable" href="#linenum976">badShift</a>, <a class="variable" href="#linenum963">optoSft</a>[<a class="variable" href="#linenum969">j</a>]);</pre></td>
+<td><pre>                        <a class="variable" href="#linenum966">i</a> += Math.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/Math.html#linenum1426">max</a>(<a class="variable" href="#linenum969">j</a> + 1 - <a class="variable" href="#linenum976">badShift</a>, <a class="variable" href="#linenum963">optoSft</a>[<a class="variable" href="#linenum969">j</a>]);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum978" class="linenum-cell" data-linenum="978" href="#linenum978"></a></td>

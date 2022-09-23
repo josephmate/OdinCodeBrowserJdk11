@@ -452,7 +452,7 @@
 </tr>
 <tr>
 <td><a id="linenum112" class="linenum-cell" data-linenum="112" href="#linenum112"></a></td>
-<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum125">String</a> auth = <a class="variable" href="#linenum109">urlConnection</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/net/URLConnection.html#linenum695">getHeaderField</a>(<span class='string'>&quot;WWW-Authenticate&quot;</span>);</pre></td>
+<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum125">String</a> auth = <a class="variable" href="#linenum109">urlConnection</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/net/URLConnection.html#linenum580">getHeaderField</a>(<span class='string'>&quot;WWW-Authenticate&quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum113" class="linenum-cell" data-linenum="113" href="#linenum113"></a></td>
@@ -504,7 +504,7 @@
 </tr>
 <tr>
 <td><a id="linenum125" class="linenum-cell" data-linenum="125" href="#linenum125"></a></td>
-<td><pre>                    <a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum125">String</a> encodedPassword = Base64.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Base64.html#linenum131">getMimeEncoder</a>().encodeToString(<a class="variable" href="#linenum124">password</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum3190">getBytes</a>(StandardCharsets.ISO_8859_1));</pre></td>
+<td><pre>                    <a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum125">String</a> encodedPassword = Base64.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Base64.html#linenum109">getMimeEncoder</a>().encodeToString(<a class="variable" href="#linenum124">password</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum938">getBytes</a>(StandardCharsets.ISO_8859_1));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum126" class="linenum-cell" data-linenum="126" href="#linenum126"></a></td>
@@ -536,7 +536,7 @@
 </tr>
 <tr>
 <td><a id="linenum133" class="linenum-cell" data-linenum="133" href="#linenum133"></a></td>
-<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum125">String</a> mimeType = <a class="variable" href="#linenum109">urlConnection</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/net/URLConnection.html#linenum695">getHeaderField</a>(<span class='string'>&quot;Content-Type&quot;</span>);</pre></td>
+<td><pre>            <a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum125">String</a> mimeType = <a class="variable" href="#linenum109">urlConnection</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/net/URLConnection.html#linenum580">getHeaderField</a>(<span class='string'>&quot;Content-Type&quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum134" class="linenum-cell" data-linenum="134" href="#linenum134"></a></td>
@@ -564,7 +564,7 @@
 </tr>
 <tr>
 <td><a id="linenum140" class="linenum-cell" data-linenum="140" href="#linenum140"></a></td>
-<td><pre>                while ((<a class="variable" href="#linenum137">read</a> = <a class="variable" href="#linenum135">inputStream</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/io/InputStream.html#linenum265">read</a>(<a class="variable" href="#linenum136">buf</a>)) &gt;= 0) {</pre></td>
+<td><pre>                while ((<a class="variable" href="#linenum137">read</a> = <a class="variable" href="#linenum135">inputStream</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/io/InputStream.html#linenum204">read</a>(<a class="variable" href="#linenum136">buf</a>)) &gt;= 0) {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum141" class="linenum-cell" data-linenum="141" href="#linenum141"></a></td>
@@ -584,7 +584,7 @@
 </tr>
 <tr>
 <td><a id="linenum145" class="linenum-cell" data-linenum="145" href="#linenum145"></a></td>
-<td><pre>                <a class="variable" href="#linenum65">LOG</a>.debug(<span class='string'>&quot;Fetched {} bytes from URI {}&quot;</span>, <a class="variable" href="#linenum138">summarized</a>, <a class="variable" href="#linenum107">uriNew</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/net/URI.html#linenum2044">toString</a>());</pre></td>
+<td><pre>                <a class="variable" href="#linenum65">LOG</a>.debug(<span class='string'>&quot;Fetched {} bytes from URI {}&quot;</span>, <a class="variable" href="#linenum138">summarized</a>, <a class="variable" href="#linenum107">uriNew</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/net/URI.html#linenum1670">toString</a>());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum146" class="linenum-cell" data-linenum="146" href="#linenum146"></a></td>
@@ -604,7 +604,7 @@
 </tr>
 <tr>
 <td><a id="linenum150" class="linenum-cell" data-linenum="150" href="#linenum150"></a></td>
-<td><pre>                <a class="variable" href="#linenum147">result</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/xml/internal/security/signature/XMLSignatureInput.html#linenum392">setSourceURI</a>(<a class="variable" href="#linenum107">uriNew</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/net/URI.html#linenum2044">toString</a>());</pre></td>
+<td><pre>                <a class="variable" href="#linenum147">result</a>.<a class="type" href="/OdinCodeBrowserJdk11/com/sun/org/apache/xml/internal/security/signature/XMLSignatureInput.html#linenum392">setSourceURI</a>(<a class="variable" href="#linenum107">uriNew</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/net/URI.html#linenum1670">toString</a>());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum151" class="linenum-cell" data-linenum="151" href="#linenum151"></a></td>
@@ -764,7 +764,7 @@
 </tr>
 <tr>
 <td><a id="linenum190" class="linenum-cell" data-linenum="190" href="#linenum190"></a></td>
-<td><pre>                <a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum125">String</a> authString = <span class='string'>&quot;Basic &quot;</span> + Base64.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Base64.html#linenum131">getMimeEncoder</a>().encodeToString(<a class="variable" href="#linenum189">password</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum3190">getBytes</a>(StandardCharsets.ISO_8859_1));</pre></td>
+<td><pre>                <a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum125">String</a> authString = <span class='string'>&quot;Basic &quot;</span> + Base64.<a class="type" href="/OdinCodeBrowserJdk11/java/util/Base64.html#linenum109">getMimeEncoder</a>().encodeToString(<a class="variable" href="#linenum189">password</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/lang/String.html#linenum938">getBytes</a>(StandardCharsets.ISO_8859_1));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum191" class="linenum-cell" data-linenum="191" href="#linenum191"></a></td>
@@ -784,7 +784,7 @@
 </tr>
 <tr>
 <td><a id="linenum195" class="linenum-cell" data-linenum="195" href="#linenum195"></a></td>
-<td><pre>            <a class="variable" href="#linenum184">urlConnection</a> = <a class="variable" href="#linenum167">url</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/net/URL.html#linenum1083">openConnection</a>();</pre></td>
+<td><pre>            <a class="variable" href="#linenum184">urlConnection</a> = <a class="variable" href="#linenum167">url</a>.<a class="type" href="/OdinCodeBrowserJdk11/java/net/URL.html#linenum1050">openConnection</a>();</pre></td>
 </tr>
 <tr>
 <td><a id="linenum196" class="linenum-cell" data-linenum="196" href="#linenum196"></a></td>
